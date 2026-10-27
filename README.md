@@ -1,30 +1,49 @@
 # BridgeWalk
 
-Entity-guided evidence-chain learning for budgeted multi-hop retrieval.
+BridgeWalk retrieves evidence as a sequence of passages connected by entities. A shared cross-encoder chooses the next passage, identifies an entity to follow and predicts when the chain is complete. Selected entities determine which passages enter the next retrieval step.
 
-This repository publishes the project's implementation, training, retrieval, evaluation and experiment-launch code. Manuscripts, submission documents, publication figures and their typesetting scripts are excluded.
+## Code layout
 
-## Code map
+| Path | Purpose |
+| --- | --- |
+| `code/bridgewalk.py` | Training examples, model training and chain inference |
+| `code/prep_data.py` | Benchmark conversion |
+| `code/openie.py`, `code/index.py` | Entity extraction, graph construction and embeddings |
+| `code/unicor.py` | Corpus and graph access |
+| `code/budget.py`, `code/reader.py` | Context packing and reader evaluation |
+| `code/bridge_analysis.py` | Evidence-chain analysis |
+| `code/chainwalk.py` | Fixed-neighborhood comparison model |
+| `repos/` | GFM-RAG and HippoRAG comparison code |
 
-- `code/bridgewalk.py`: graph construction, model training and inference entry points.
-- `code/prep_data.py`, `index.py`, `openie.py`: data and graph preparation.
-- `code/reader.py`, `bridge_analysis.py`, `budget.py`: answering and evaluation.
-- `code/chainwalk.py` and other model files retain comparison implementations.
+## Environment and preparation
 
-## Environment and data
+Use CUDA-enabled PyTorch with Transformers, sentence-transformers, NumPy and PEFT. Reader inference uses vLLM. Upstream comparison implementations have separate dependency files under `repos/`.
 
-The code uses Python and a GPU-oriented PyTorch/Transformers stack. Inspect the imports and command-line options of the selected entry point before installing dependencies. Historical snapshots and comparison implementations are retained; they are not all required for one experiment.
+Run commands from the repository root. Download HotpotQA, 2WikiMultihopQA and MuSiQue from their providers, then use the preparation, extraction and indexing scripts to construct the passage collections and graphs. Check local dataset and model paths in the selected scripts before launching them.
 
-Download benchmark datasets and pretrained models from their original providers. The source release does not contain benchmark corpora, generated trajectories, trained weights or retrieval indexes. Some launch scripts use the original experiment directory layout, GPU assignments and model-cache paths; set these for your own machine before running them. No claim is made that a new machine reproduces the experiments without preparing these inputs.
+Training reads each dataset from `data/train/<dataset>/`, including `index.pt`, `text_mentions.pt` and `questions.jsonl`. Dataset directory names are `hotpotqa`, `2wikimultihopqa` and `musique`. Inference uses `data/<dataset>/test.jsonl` with the corresponding indexes and candidate proposals in `results/<dataset>/chain_cand_v7.jsonl`.
 
-## Remote execution
+## Build examples, train and retrieve
 
-Remote helpers that previously embedded login details now read `SSH_HOST`, `SSH_PORT` (default 22), `SSH_USER` and optional `SSH_PASSWORD` from the environment. Set these locally, or use your SSH agent/key configuration. Do not commit credentials or local server information files.
+After preparing those inputs and a local cross-encoder initialization at `models/initial-cross-encoder`:
 
-## Included snapshots and third-party code
+```bash
+mkdir -p ckpt
+python code/bridgewalk.py build
+python code/bridgewalk.py train models/initial-cross-encoder ckpt/bridgewalk 0
+python code/bridgewalk.py infer musique ckpt/bridgewalk bridgewalk full
+```
 
-Source subdirectories retain their original relative paths. Where `repos/` is present, the included upstream source retains its existing LICENSE and NOTICE files. Those licenses apply to their respective components. No new license grant for the project's own code has been added in this release.
+The build step writes `ckpt/bridge_train.jsonl`. Training saves the encoder, tokenizer and task heads to the output directory. Inference writes context-budget variants under `results/<dataset>/`, using suffixes such as `_SB300` and `_SB600`.
 
-## Release checks
+`KB` controls how many bridge entities are followed, `RB` controls the passage expansion per bridge, and `DEPTH` sets the maximum chain depth. Set `READER` to your local reader model before using `code/reader.py`. The `full` inference variant enables the complete model; the other variants listed in `bridgewalk.py` support controlled comparisons.
 
-Python source files were parsed for syntax, publication files were excluded, and the release was checked for embedded SSH credentials and common token/private-key patterns. Training and large-scale retrieval experiments were not rerun as part of packaging.
+## Optional remote helpers
+
+Local training and inference do not require a remote connection. The optional SSH/SCP wrappers read `SSH_HOST`, `SSH_USER` and `SSH_PORT` from the environment; SCP also requires `SSH_REMOTE_DIR`. Configure these on your own machine and authenticate through your SSH agent or key. The repository contains no deployment endpoint or login settings.
+
+Benchmark data, trained models, generated indexes and manuscript materials are not bundled with the code.
+
+## License
+
+GFM-RAG in `repos/gfm-rag/` retains its Apache 2.0 license. HippoRAG in `repos/HippoRAG/` retains its MIT license. A license for the project-specific code has not yet been specified.
