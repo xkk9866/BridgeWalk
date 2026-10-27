@@ -643,6 +643,11 @@
       "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/hipporag2/dspy_prompts.json",
+      "sha256": "0e923dd89e15a516ea4ae5a8743874fcb3c86d049dbbddfe37559306c206d5c5",
+      "source_sha256": "0e923dd89e15a516ea4ae5a8743874fcb3c86d049dbbddfe37559306c206d5c5"
+    },
+    {
       "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/hipporag2/rerank.py",
       "sha256": "50714822204959280700b6ae4197622ac9170fd9819192f7c5dc468a58193f3e",
       "source_sha256": "50714822204959280700b6ae4197622ac9170fd9819192f7c5dc468a58193f3e"
@@ -1676,6 +1681,11 @@
       "file": "repos/HippoRAG/src/hipporag/prompts/__init__.py",
       "sha256": "c60459168692aab4024d57332c114a7cd842a5e560c7b78bdfe7331436c36419",
       "source_sha256": "c60459168692aab4024d57332c114a7cd842a5e560c7b78bdfe7331436c36419"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/dspy_prompts/filter_llama3.3-70B-Instruct.json",
+      "sha256": "82e504d92c0a62dd9a8d79edc25714d1d5990fb87447cbf3838a5022ba5b952b",
+      "source_sha256": "82e504d92c0a62dd9a8d79edc25714d1d5990fb87447cbf3838a5022ba5b952b"
     },
     {
       "file": "repos/HippoRAG/src/hipporag/prompts/filter_default_prompt.py",
