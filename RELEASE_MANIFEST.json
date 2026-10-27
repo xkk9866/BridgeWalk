@@ -1,0 +1,1906 @@
+{
+  "project": "BridgeWalk",
+  "date": "2026-10-27",
+  "files": [
+    {
+      "file": "code/_bw_stats.py",
+      "sha256": "1453116b48c01bd591ee0723a910b81a2b5e172e21785f0991c2ba8e83a707f4",
+      "source_sha256": "1453116b48c01bd591ee0723a910b81a2b5e172e21785f0991c2ba8e83a707f4"
+    },
+    {
+      "file": "code/_collect.py",
+      "sha256": "942902f2288c345e3f139449ab5d50e472b2977f7fa2bb9bde25fde62537ce06",
+      "source_sha256": "942902f2288c345e3f139449ab5d50e472b2977f7fa2bb9bde25fde62537ce06"
+    },
+    {
+      "file": "code/_cw_stats.py",
+      "sha256": "addf9acbf12b7ecd8f647c1211e2195efb002a5fd5f92b89da6510d151a433e0",
+      "source_sha256": "addf9acbf12b7ecd8f647c1211e2195efb002a5fd5f92b89da6510d151a433e0"
+    },
+    {
+      "file": "code/_remote.py",
+      "sha256": "18eebf4a9d4fe170ed9121153411f6f43c734c6c22c4fcd0d228b0f8697bbfae",
+      "source_sha256": "7a8060f66ad8d4bb7b5ae8be0eb8a034426c059930bb43424ccf38dfe801c635"
+    },
+    {
+      "file": "code/aggregate.py",
+      "sha256": "2239e86b84f33cb2ea1c54cd1472b1c11923810f959ac1ebbe070c4918e45ac4",
+      "source_sha256": "2239e86b84f33cb2ea1c54cd1472b1c11923810f959ac1ebbe070c4918e45ac4"
+    },
+    {
+      "file": "code/bridge_analysis.py",
+      "sha256": "1d70ebb8e8e17e99e35e7f8bd76ba83cb034b7694c333b3beabaf9e0b1985f77",
+      "source_sha256": "1d70ebb8e8e17e99e35e7f8bd76ba83cb034b7694c333b3beabaf9e0b1985f77"
+    },
+    {
+      "file": "code/bridgewalk.py",
+      "sha256": "8098408fdabd9b497f366d7fe54f3a665677f2b78ae2d998905d7f645b808419",
+      "source_sha256": "8098408fdabd9b497f366d7fe54f3a665677f2b78ae2d998905d7f645b808419"
+    },
+    {
+      "file": "code/budget.py",
+      "sha256": "848dcbec19caa86b84f13641c24b0b756a380cafd8193aba9e2405e66a781f3c",
+      "source_sha256": "848dcbec19caa86b84f13641c24b0b756a380cafd8193aba9e2405e66a781f3c"
+    },
+    {
+      "file": "code/build_open.py",
+      "sha256": "60ff32940aa50add7c467a37cac2911d7ed0a39015e96869dee98ba2462db4e7",
+      "source_sha256": "60ff32940aa50add7c467a37cac2911d7ed0a39015e96869dee98ba2462db4e7"
+    },
+    {
+      "file": "code/chain_data.py",
+      "sha256": "370ae58aac302b44edb86175f40956da6c2e9ee257939e159bbc69e9a1ba8c23",
+      "source_sha256": "370ae58aac302b44edb86175f40956da6c2e9ee257939e159bbc69e9a1ba8c23"
+    },
+    {
+      "file": "code/chain_infer.py",
+      "sha256": "37981a88c1d050cc11bd0d040c3d502a04e62364c2115d149d4876c739dd5c64",
+      "source_sha256": "37981a88c1d050cc11bd0d040c3d502a04e62364c2115d149d4876c739dd5c64"
+    },
+    {
+      "file": "code/chain_infer2.py",
+      "sha256": "2efc580e40e93e0a0a882085d7d774de615f0924fd4ce31a6100209fa9548f44",
+      "source_sha256": "2efc580e40e93e0a0a882085d7d774de615f0924fd4ce31a6100209fa9548f44"
+    },
+    {
+      "file": "code/chain_infer3.py",
+      "sha256": "d128e16600a80e832df895983e47f85ea7ac29f8089f2f2f67e14758883a39c4",
+      "source_sha256": "d128e16600a80e832df895983e47f85ea7ac29f8089f2f2f67e14758883a39c4"
+    },
+    {
+      "file": "code/chain_stats.py",
+      "sha256": "1dd577c78f228b451d06c49e2b318c1188179e1ff7ac5d7a5f8e07cdbf9c9947",
+      "source_sha256": "1dd577c78f228b451d06c49e2b318c1188179e1ff7ac5d7a5f8e07cdbf9c9947"
+    },
+    {
+      "file": "code/chain_train.py",
+      "sha256": "a7488f83bd3351bd5adb2ed4cca6922364c24f876471e46fe9c16d5f19f95eb1",
+      "source_sha256": "a7488f83bd3351bd5adb2ed4cca6922364c24f876471e46fe9c16d5f19f95eb1"
+    },
+    {
+      "file": "code/chainwalk.py",
+      "sha256": "9f7e298b748e115bfb97922b56c10fad8a995d48cfed2a43225ad980df14ee0b",
+      "source_sha256": "9f7e298b748e115bfb97922b56c10fad8a995d48cfed2a43225ad980df14ee0b"
+    },
+    {
+      "file": "code/cmp.py",
+      "sha256": "c53c03578f251e76035af7732ea720f68c7de21c04e4af3c33e6e3fe668ac8ca",
+      "source_sha256": "c53c03578f251e76035af7732ea720f68c7de21c04e4af3c33e6e3fe668ac8ca"
+    },
+    {
+      "file": "code/coverwalk.py",
+      "sha256": "b2d134da0b856c37c51ee677c28e85080858bbce0e7fdbb304c8425256069d62",
+      "source_sha256": "b2d134da0b856c37c51ee677c28e85080858bbce0e7fdbb304c8425256069d62"
+    },
+    {
+      "file": "code/diag_halt.py",
+      "sha256": "5e160f75d9f6ecc1639ec75fcd8339baebbdde39eea64924453e1014d6e641b4",
+      "source_sha256": "5e160f75d9f6ecc1639ec75fcd8339baebbdde39eea64924453e1014d6e641b4"
+    },
+    {
+      "file": "code/diag_lookup.py",
+      "sha256": "0bb0da690e4a05f51e94ec35c1c9a9e5c55bdedc0e785b631a28f8c578b9daaa",
+      "source_sha256": "0bb0da690e4a05f51e94ec35c1c9a9e5c55bdedc0e785b631a28f8c578b9daaa"
+    },
+    {
+      "file": "code/diag_reach.py",
+      "sha256": "c533c05074c7b3fc600468b2a33521207f0bb719d316457e972431e82c01e5ff",
+      "source_sha256": "c533c05074c7b3fc600468b2a33521207f0bb719d316457e972431e82c01e5ff"
+    },
+    {
+      "file": "code/diag_reach2.py",
+      "sha256": "567545003fd9c182e2ff53879075f2703bb10ad1e22c69ee250cb437eda773a6",
+      "source_sha256": "567545003fd9c182e2ff53879075f2703bb10ad1e22c69ee250cb437eda773a6"
+    },
+    {
+      "file": "code/diag_reach3.py",
+      "sha256": "4d7287b533a5e2e0d15e4377af5c358ef81de7857b12598ee74f8d56c4f5d617",
+      "source_sha256": "4d7287b533a5e2e0d15e4377af5c358ef81de7857b12598ee74f8d56c4f5d617"
+    },
+    {
+      "file": "code/diag_reach4.py",
+      "sha256": "d6cd679e5f575dfd85219c51cb4e2aa450739c131cd543c62c25995a026fd1e9",
+      "source_sha256": "d6cd679e5f575dfd85219c51cb4e2aa450739c131cd543c62c25995a026fd1e9"
+    },
+    {
+      "file": "code/diag_select.py",
+      "sha256": "841d1fe928eab349d0aeb97467dbf5bbe6c09529f184509c9ad6e07b33b4d505",
+      "source_sha256": "841d1fe928eab349d0aeb97467dbf5bbe6c09529f184509c9ad6e07b33b4d505"
+    },
+    {
+      "file": "code/dl_hp.sh",
+      "sha256": "413fe1d1416ad9f4156bebd103e063f9cb5292edbbcf46dbb286bd2f5b56b869",
+      "source_sha256": "413fe1d1416ad9f4156bebd103e063f9cb5292edbbcf46dbb286bd2f5b56b869"
+    },
+    {
+      "file": "code/final_stats.py",
+      "sha256": "07e8bb448a576bdf54b3416d234b4fb1378f72b0930839d4b047014d62453468",
+      "source_sha256": "07e8bb448a576bdf54b3416d234b4fb1378f72b0930839d4b047014d62453468"
+    },
+    {
+      "file": "code/fit_ceiling.py",
+      "sha256": "90fa5c6ec1864fb9dacee9bb03b15fd570acecee018aa0ced431481bdf27cb9c",
+      "source_sha256": "90fa5c6ec1864fb9dacee9bb03b15fd570acecee018aa0ced431481bdf27cb9c"
+    },
+    {
+      "file": "code/ft_dense.py",
+      "sha256": "80bd4c59d5eab48fdec2c54a2bfcbb8abf937e1c650969de6e0a7f2bd2bcbc57",
+      "source_sha256": "80bd4c59d5eab48fdec2c54a2bfcbb8abf937e1c650969de6e0a7f2bd2bcbc57"
+    },
+    {
+      "file": "code/gpu1.sh",
+      "sha256": "15bf0e12a48fd9fa87a7015e5c129149f0d83a3325e767f1e90325bfe251c059",
+      "source_sha256": "15bf0e12a48fd9fa87a7015e5c129149f0d83a3325e767f1e90325bfe251c059"
+    },
+    {
+      "file": "code/gpu1b.sh",
+      "sha256": "d3b1e489018f28ce302d24dfc48ba9e9fad34cdc314a39396e8f56b8bee17ea8",
+      "source_sha256": "d3b1e489018f28ce302d24dfc48ba9e9fad34cdc314a39396e8f56b8bee17ea8"
+    },
+    {
+      "file": "code/index.py",
+      "sha256": "b174261aed4cb9a230a46bc7d141dcf1657e4cd3e5017fded0527fd4739ed617",
+      "source_sha256": "b174261aed4cb9a230a46bc7d141dcf1657e4cd3e5017fded0527fd4739ed617"
+    },
+    {
+      "file": "code/judge.py",
+      "sha256": "cfdb7ad6660088c96ee726f679f0f4be494673246bc22a97735a7854a2cf6ac4",
+      "source_sha256": "cfdb7ad6660088c96ee726f679f0f4be494673246bc22a97735a7854a2cf6ac4"
+    },
+    {
+      "file": "code/mdr_style.py",
+      "sha256": "b2a2aaf565357486104c62823898272ba4ca37b857a73e696283e5c5a1f56058",
+      "source_sha256": "b2a2aaf565357486104c62823898272ba4ca37b857a73e696283e5c5a1f56058"
+    },
+    {
+      "file": "code/mdr_train.py",
+      "sha256": "3747d45cc5d3658af9f2e4f9b955f345412a821db7813ccad3610964ec685b76",
+      "source_sha256": "3747d45cc5d3658af9f2e4f9b955f345412a821db7813ccad3610964ec685b76"
+    },
+    {
+      "file": "code/open_cands.py",
+      "sha256": "352be6e7dc2c17469d119b8196d46cec03dd00644040c7f263d525ab4bb077bb",
+      "source_sha256": "352be6e7dc2c17469d119b8196d46cec03dd00644040c7f263d525ab4bb077bb"
+    },
+    {
+      "file": "code/openie.py",
+      "sha256": "c5606114f36f6f58207cd19b49d399cf6b9f11e25311afc5f111db14c89bbba0",
+      "source_sha256": "c5606114f36f6f58207cd19b49d399cf6b9f11e25311afc5f111db14c89bbba0"
+    },
+    {
+      "file": "code/openie_vllm.py",
+      "sha256": "7b5d2ca8c7a8baaa1c77295f7010e1592c7e5fb922127e13311d3d06f0a1dfc2",
+      "source_sha256": "7b5d2ca8c7a8baaa1c77295f7010e1592c7e5fb922127e13311d3d06f0a1dfc2"
+    },
+    {
+      "file": "code/oracle_fit.py",
+      "sha256": "7d374b3f96eaf5a2921b40b7281f07c2406c07aaf2fd885f8e181da9e332df7f",
+      "source_sha256": "7d374b3f96eaf5a2921b40b7281f07c2406c07aaf2fd885f8e181da9e332df7f"
+    },
+    {
+      "file": "code/peek.py",
+      "sha256": "20f306bb755445305146f03de89dc1eb56e9ff6c02d5ee5af95ca11b345fc048",
+      "source_sha256": "20f306bb755445305146f03de89dc1eb56e9ff6c02d5ee5af95ca11b345fc048"
+    },
+    {
+      "file": "code/peek_ret.py",
+      "sha256": "d449f0169429768d7995db6bcf786b26da87e0341916fb7d3184c06a3c35bc3d",
+      "source_sha256": "d449f0169429768d7995db6bcf786b26da87e0341916fb7d3184c06a3c35bc3d"
+    },
+    {
+      "file": "code/pipeline.sh",
+      "sha256": "41330b65aa95c1343cce7e3d1c544754e05232b56b52df7a18b8c0c5561c8efc",
+      "source_sha256": "41330b65aa95c1343cce7e3d1c544754e05232b56b52df7a18b8c0c5561c8efc"
+    },
+    {
+      "file": "code/prep_data.py",
+      "sha256": "e75c2680558c817a264860cad87d4211a1ea052cbf58fbfed7be458ddf4933d2",
+      "source_sha256": "e75c2680558c817a264860cad87d4211a1ea052cbf58fbfed7be458ddf4933d2"
+    },
+    {
+      "file": "code/prep_mhrag.py",
+      "sha256": "d3da734df7cacd12d44b1b4c17cb11692f1962c9c51906506cbf119bddec4ad3",
+      "source_sha256": "d3da734df7cacd12d44b1b4c17cb11692f1962c9c51906506cbf119bddec4ad3"
+    },
+    {
+      "file": "code/probe_thread.py",
+      "sha256": "51402092e4dcc4e5ddc44327aad2eb0cbcaa1afce7c1bf7ee77b55f1631c97f3",
+      "source_sha256": "51402092e4dcc4e5ddc44327aad2eb0cbcaa1afce7c1bf7ee77b55f1631c97f3"
+    },
+    {
+      "file": "code/q_bridge1.sh",
+      "sha256": "d10461cd8f6a92979793c639cb8bd0e854fa738fbee7dd40988b331e9f561392",
+      "source_sha256": "d10461cd8f6a92979793c639cb8bd0e854fa738fbee7dd40988b331e9f561392"
+    },
+    {
+      "file": "code/q_bridge2.sh",
+      "sha256": "59b4105699915af8858a841debc09d478c552c41f91154b8fbd0b27b8d4deea2",
+      "source_sha256": "59b4105699915af8858a841debc09d478c552c41f91154b8fbd0b27b8d4deea2"
+    },
+    {
+      "file": "code/q_bridge2_s1.sh",
+      "sha256": "77cb1b9b6adea9a6ffcaaa1b2a7033214d97169775b3486021790bf11dc87b08",
+      "source_sha256": "77cb1b9b6adea9a6ffcaaa1b2a7033214d97169775b3486021790bf11dc87b08"
+    },
+    {
+      "file": "code/q_bridge3.sh",
+      "sha256": "8ab46429f0fe62292ea4217b3feb37cc235c67dbcc5aa1ed204e1d210324ca48",
+      "source_sha256": "8ab46429f0fe62292ea4217b3feb37cc235c67dbcc5aa1ed204e1d210324ca48"
+    },
+    {
+      "file": "code/q_bridge4.sh",
+      "sha256": "7b0e8e78a0f70cd71cf63e788feff915da63d3382da58682191ad26138a0c330",
+      "source_sha256": "7b0e8e78a0f70cd71cf63e788feff915da63d3382da58682191ad26138a0c330"
+    },
+    {
+      "file": "code/q_bw_llama.sh",
+      "sha256": "72ab73d8b01ffee9c7a1eef9b4117308919ae378bc3e97ee958f87389be9ce92",
+      "source_sha256": "72ab73d8b01ffee9c7a1eef9b4117308919ae378bc3e97ee958f87389be9ce92"
+    },
+    {
+      "file": "code/q_bw_qa_resume.sh",
+      "sha256": "3e38eeb986eee802a2b9463b6d373a1438b4b17f7fbf4ff753b95a080261c65b",
+      "source_sha256": "3e38eeb986eee802a2b9463b6d373a1438b4b17f7fbf4ff753b95a080261c65b"
+    },
+    {
+      "file": "code/q_bwl_fix.sh",
+      "sha256": "5ca8ed1b5b45863c380cbc8c2640ebca8d272ea03c4c1d054dcafc4845dc77fe",
+      "source_sha256": "5ca8ed1b5b45863c380cbc8c2640ebca8d272ea03c4c1d054dcafc4845dc77fe"
+    },
+    {
+      "file": "code/q_cover.sh",
+      "sha256": "a15c0ce851a3c49fe2e3ac460a341b91fc187a5a07dd5121f2ccbe764107379f",
+      "source_sha256": "a15c0ce851a3c49fe2e3ac460a341b91fc187a5a07dd5121f2ccbe764107379f"
+    },
+    {
+      "file": "code/q_cover2.sh",
+      "sha256": "8f8cb90fc3a1b1ecb58d02b2c31da0165f07c08eb03c90b8f35013f3362f1c40",
+      "source_sha256": "8f8cb90fc3a1b1ecb58d02b2c31da0165f07c08eb03c90b8f35013f3362f1c40"
+    },
+    {
+      "file": "code/q_cross.sh",
+      "sha256": "7ccff6c10c278c5a144e2c2d8d8ee60a8e43fb1fcbc44f0485c4c873f7d87cb5",
+      "source_sha256": "7ccff6c10c278c5a144e2c2d8d8ee60a8e43fb1fcbc44f0485c4c873f7d87cb5"
+    },
+    {
+      "file": "code/q_ctrl.sh",
+      "sha256": "27f7addbbc7e7fffe42179c91e0d788d8b6114bc27a2d42795d3501f69d3c057",
+      "source_sha256": "27f7addbbc7e7fffe42179c91e0d788d8b6114bc27a2d42795d3501f69d3c057"
+    },
+    {
+      "file": "code/q_ctrl2.sh",
+      "sha256": "1c7f0fce385256a63d286725f4e04fade7d5d168097faf339c41b0ce7ed828ce",
+      "source_sha256": "1c7f0fce385256a63d286725f4e04fade7d5d168097faf339c41b0ce7ed828ce"
+    },
+    {
+      "file": "code/q_ctrl_qa.sh",
+      "sha256": "cd73eebf4fe0490ade4a0a45c38b6b736dca8112b24add395c53e69af0d66822",
+      "source_sha256": "cd73eebf4fe0490ade4a0a45c38b6b736dca8112b24add395c53e69af0d66822"
+    },
+    {
+      "file": "code/q_fix.sh",
+      "sha256": "c11639b3c49600ad96819974bf10b5141ad983b90c14d402417e9423e107d19f",
+      "source_sha256": "c11639b3c49600ad96819974bf10b5141ad983b90c14d402417e9423e107d19f"
+    },
+    {
+      "file": "code/q_fix2.sh",
+      "sha256": "6d90a1b857a91049220ce8f1eec247cac3c8e5c8fe7edf59ecbda26286273b3b",
+      "source_sha256": "6d90a1b857a91049220ce8f1eec247cac3c8e5c8fe7edf59ecbda26286273b3b"
+    },
+    {
+      "file": "code/q_fix3.sh",
+      "sha256": "8ab53ffc1972b325c5ee1718d65cb448d30b0130ba50b1e30ffe099840f1965a",
+      "source_sha256": "8ab53ffc1972b325c5ee1718d65cb448d30b0130ba50b1e30ffe099840f1965a"
+    },
+    {
+      "file": "code/q_lora.sh",
+      "sha256": "800054b91ac2c8470ccff98c7788e2fa56fb6cc3528c1900abe840ac609db3f5",
+      "source_sha256": "800054b91ac2c8470ccff98c7788e2fa56fb6cc3528c1900abe840ac609db3f5"
+    },
+    {
+      "file": "code/q_open.sh",
+      "sha256": "a9c2938be53e0b804e9e79f652e02db75c8f6880461b8b3fa790393605e240dc",
+      "source_sha256": "a9c2938be53e0b804e9e79f652e02db75c8f6880461b8b3fa790393605e240dc"
+    },
+    {
+      "file": "code/queue2_gpu7.sh",
+      "sha256": "d8eb3cf1b045a99ca6a821b5127d2bbe548c97a2b0ed1f9c2e2fbaeb1dc631ec",
+      "source_sha256": "d8eb3cf1b045a99ca6a821b5127d2bbe548c97a2b0ed1f9c2e2fbaeb1dc631ec"
+    },
+    {
+      "file": "code/queue2b_gpu7.sh",
+      "sha256": "a88d56ccf56c1e3b74fddeb80a01f5b7f20d1274fe06804b07219494d931ad0d",
+      "source_sha256": "a88d56ccf56c1e3b74fddeb80a01f5b7f20d1274fe06804b07219494d931ad0d"
+    },
+    {
+      "file": "code/queue2c_gpu7.sh",
+      "sha256": "d5047377e0e6c194f871b57ea1fad8b69a5a022488b6cdef6c89eadb3082113c",
+      "source_sha256": "d5047377e0e6c194f871b57ea1fad8b69a5a022488b6cdef6c89eadb3082113c"
+    },
+    {
+      "file": "code/queue3_gpu7.sh",
+      "sha256": "753ed69ab83a3e4521391e4288ce8ce19739e89f76148de1e5d5d81eab7d0ab9",
+      "source_sha256": "753ed69ab83a3e4521391e4288ce8ce19739e89f76148de1e5d5d81eab7d0ab9"
+    },
+    {
+      "file": "code/queue_chain.sh",
+      "sha256": "650408bdb59aabe473e6ab475c15fc633c86d66efdd542964b3a290d3267dc80",
+      "source_sha256": "650408bdb59aabe473e6ab475c15fc633c86d66efdd542964b3a290d3267dc80"
+    },
+    {
+      "file": "code/queue_chain2.sh",
+      "sha256": "ed408bdcff9d453b9cb35e5262956d3fcd5c1fc6b9165f3bb791cc67b751855f",
+      "source_sha256": "ed408bdcff9d453b9cb35e5262956d3fcd5c1fc6b9165f3bb791cc67b751855f"
+    },
+    {
+      "file": "code/queue_gpu7.sh",
+      "sha256": "27988b69ae47a53002d1be1ccea4dda4cd318f89f696adff48b1de3c8b26600d",
+      "source_sha256": "27988b69ae47a53002d1be1ccea4dda4cd318f89f696adff48b1de3c8b26600d"
+    },
+    {
+      "file": "code/queue_rev8.sh",
+      "sha256": "67e57a0618dd59455f3774ed6af9453bb9058e45ad45f99e0a396dee4619e224",
+      "source_sha256": "67e57a0618dd59455f3774ed6af9453bb9058e45ad45f99e0a396dee4619e224"
+    },
+    {
+      "file": "code/queue_rev9.sh",
+      "sha256": "9c7044dba21f43b06e6e4ec7951148bb53961cff8c1b1c5dbab429a0194c7155",
+      "source_sha256": "9c7044dba21f43b06e6e4ec7951148bb53961cff8c1b1c5dbab429a0194c7155"
+    },
+    {
+      "file": "code/queue_v4.sh",
+      "sha256": "054f6b39045727b837e533c33a77629670c3f6815e3d6836c50bee19a9cf01e6",
+      "source_sha256": "054f6b39045727b837e533c33a77629670c3f6815e3d6836c50bee19a9cf01e6"
+    },
+    {
+      "file": "code/queue_v6.sh",
+      "sha256": "79bb8120756925f8ae6893ad893cdf3d0977f4517782f8ff8424dab6b8f48823",
+      "source_sha256": "79bb8120756925f8ae6893ad893cdf3d0977f4517782f8ff8424dab6b8f48823"
+    },
+    {
+      "file": "code/queue_v7.sh",
+      "sha256": "2d48fc97e2d2e4e61f12ee9899c15c4fedf2dcac2084d38726873e0e69acdb54",
+      "source_sha256": "2d48fc97e2d2e4e61f12ee9899c15c4fedf2dcac2084d38726873e0e69acdb54"
+    },
+    {
+      "file": "code/reader.py",
+      "sha256": "82d9dd9d04b30a5591e722b0f71557c61bdd21676ba3ae93dfe10e2d08c42b26",
+      "source_sha256": "82d9dd9d04b30a5591e722b0f71557c61bdd21676ba3ae93dfe10e2d08c42b26"
+    },
+    {
+      "file": "code/remote/chk.sh",
+      "sha256": "5d278fa65f4a9d38931d8ba7087aebf7d2a3d48f79a30855469e005ec6898ee8",
+      "source_sha256": "5d278fa65f4a9d38931d8ba7087aebf7d2a3d48f79a30855469e005ec6898ee8"
+    },
+    {
+      "file": "code/remote/probe1.sh",
+      "sha256": "c609a18689b7fc69731ca6d90d54a942798e3ecb92be3d42ee0085eb6f67ce02",
+      "source_sha256": "c609a18689b7fc69731ca6d90d54a942798e3ecb92be3d42ee0085eb6f67ce02"
+    },
+    {
+      "file": "code/remote/qa1.sh",
+      "sha256": "84e3e5e344ef4053c99ded574bacc2e312cafd71b741680d63bac3369574070e",
+      "source_sha256": "84e3e5e344ef4053c99ded574bacc2e312cafd71b741680d63bac3369574070e"
+    },
+    {
+      "file": "code/repack.py",
+      "sha256": "ea5c9457af8ba4ed17cad49e6f6676477438834cf54303d402918f87ddc0f8e5",
+      "source_sha256": "ea5c9457af8ba4ed17cad49e6f6676477438834cf54303d402918f87ddc0f8e5"
+    },
+    {
+      "file": "code/repack_lanes.sh",
+      "sha256": "3bd558e02c5458608c8fae434cb18d44b566702fa33d248db8aaae400e3928f7",
+      "source_sha256": "3bd558e02c5458608c8fae434cb18d44b566702fa33d248db8aaae400e3928f7"
+    },
+    {
+      "file": "code/rev_stats.py",
+      "sha256": "5ce0d2cc0197dc2d075a56b5598b8d1b1fedb12e9499311096abdaee9feeeb1c",
+      "source_sha256": "5ce0d2cc0197dc2d075a56b5598b8d1b1fedb12e9499311096abdaee9feeeb1c"
+    },
+    {
+      "file": "code/run_retrieval.py",
+      "sha256": "0fb85e50404d65261e38bcb22a2189c2076b584d00fcb7542b06ca43ccd3e787",
+      "source_sha256": "0fb85e50404d65261e38bcb22a2189c2076b584d00fcb7542b06ca43ccd3e787"
+    },
+    {
+      "file": "code/run_v3.py",
+      "sha256": "a09dadcf2b921ef52c25fab29c652bfd1c342ec60b2256b351efbf54c8570b4d",
+      "source_sha256": "a09dadcf2b921ef52c25fab29c652bfd1c342ec60b2256b351efbf54c8570b4d"
+    },
+    {
+      "file": "code/scp_r.sh",
+      "sha256": "9aab20363410d34642fa78bb3e794e08b18ea9ea5ff2a54f8b5495725fb8d5da",
+      "source_sha256": "1932c5acec5ccaa03a505e5fd9468245bfc0a9fcdc9e93e6657e8f64437cd6ec"
+    },
+    {
+      "file": "code/ssh_r.sh",
+      "sha256": "b25643236135ae9655a89d8e09d5379b03da6a0a2765fda866a0abdbc0ad0760",
+      "source_sha256": "0fec74ccc52651f1888f2fac612170583d459d8fe1f546b59eae9c45d9326a31"
+    },
+    {
+      "file": "code/strong_baselines.py",
+      "sha256": "f8d8a8f7b3efe191c84b4883debaac0873b87845c091a95a96df473160a9b940",
+      "source_sha256": "f8d8a8f7b3efe191c84b4883debaac0873b87845c091a95a96df473160a9b940"
+    },
+    {
+      "file": "code/struct_chain.py",
+      "sha256": "77dc0befde8cdb77865b4c8f5ceba1082b90784f1867364aff4d4786a13f6dc7",
+      "source_sha256": "77dc0befde8cdb77865b4c8f5ceba1082b90784f1867364aff4d4786a13f6dc7"
+    },
+    {
+      "file": "code/struct_infer.py",
+      "sha256": "edec1a8cd47ce8750c52f5333af4e248b9897045486504ff48d449e98e5bf3a9",
+      "source_sha256": "edec1a8cd47ce8750c52f5333af4e248b9897045486504ff48d449e98e5bf3a9"
+    },
+    {
+      "file": "code/threads.py",
+      "sha256": "40a0c34812705188969688471f51adad7190f5f7260d6011bd45c5d555f86798",
+      "source_sha256": "40a0c34812705188969688471f51adad7190f5f7260d6011bd45c5d555f86798"
+    },
+    {
+      "file": "code/train.py",
+      "sha256": "535d69e3d42c30b1990482074b7d8a4a959b239b5cf09a30cb9225ce7333f661",
+      "source_sha256": "535d69e3d42c30b1990482074b7d8a4a959b239b5cf09a30cb9225ce7333f661"
+    },
+    {
+      "file": "code/unicor.py",
+      "sha256": "c9dc25d4ddbf77e2a239345550a3a86a243cf33563406df448df7c0b957f757b",
+      "source_sha256": "c9dc25d4ddbf77e2a239345550a3a86a243cf33563406df448df7c0b957f757b"
+    },
+    {
+      "file": "code/unicor2.py",
+      "sha256": "38f78462f5e0239dbea012c769a3c02490f441cce01b589a3cf093a3e1dbffaf",
+      "source_sha256": "38f78462f5e0239dbea012c769a3c02490f441cce01b589a3cf093a3e1dbffaf"
+    },
+    {
+      "file": "code/unicor3.py",
+      "sha256": "a5eb2383c3eb7aa87b98b1e78dde776133855deb9b35ecf538c9ae39133fdf30",
+      "source_sha256": "a5eb2383c3eb7aa87b98b1e78dde776133855deb9b35ecf538c9ae39133fdf30"
+    },
+    {
+      "file": "code/v2_job.sh",
+      "sha256": "2bd17619ef52378a86b7140cb63d390b9b46cc161d50cea30d09b173c7651be3",
+      "source_sha256": "2bd17619ef52378a86b7140cb63d390b9b46cc161d50cea30d09b173c7651be3"
+    },
+    {
+      "file": "code/walk_ceiling.py",
+      "sha256": "09a1bd6d4388da6c8d9a2960a8ee78c33215c96a74cdb50591fa5c0c84122c84",
+      "source_sha256": "09a1bd6d4388da6c8d9a2960a8ee78c33215c96a74cdb50591fa5c0c84122c84"
+    },
+    {
+      "file": "code/walk_ret.py",
+      "sha256": "154274ba51231e07cb5920f98c43bb39aac0bb8201ea21c3bffdc0b881128712",
+      "source_sha256": "154274ba51231e07cb5920f98c43bb39aac0bb8201ea21c3bffdc0b881128712"
+    },
+    {
+      "file": "repos/gfm-rag/.pre-commit-config.yaml",
+      "sha256": "e74acac99bf5a307dceb68bca7c6ce1e352a0cdc61c817a1ea9782c4b31f08b5",
+      "source_sha256": "e74acac99bf5a307dceb68bca7c6ce1e352a0cdc61c817a1ea9782c4b31f08b5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/__init__.py",
+      "sha256": "4b845b3a0bb06f65a8f60e58599caf50eda4aed9e8b339efe2cf0159d9285f47",
+      "source_sha256": "4b845b3a0bb06f65a8f60e58599caf50eda4aed9e8b339efe2cf0159d9285f47"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/__init__.py",
+      "sha256": "f81b2481ee379397e5a8c6abd3b6852c592caac887dc908a2cf090bc04b56d38",
+      "source_sha256": "f81b2481ee379397e5a8c6abd3b6852c592caac887dc908a2cf090bc04b56d38"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/base_evaluator.py",
+      "sha256": "3d63e3f1abfca981430e5eff809a6574408792dab0351a5234b1395600c9882d",
+      "source_sha256": "3d63e3f1abfca981430e5eff809a6574408792dab0351a5234b1395600c9882d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/hotpot_qa_evaluator.py",
+      "sha256": "1b0434e9e59e2d06ec4930d0cdc0ad847d2c86079c3da284815df3faca36d8e2",
+      "source_sha256": "1b0434e9e59e2d06ec4930d0cdc0ad847d2c86079c3da284815df3faca36d8e2"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/musique_evaluator.py",
+      "sha256": "33e55706ac696ed195930979dd4a6a45ef2477293c6ad6252fcfdc3ca1e0f434",
+      "source_sha256": "33e55706ac696ed195930979dd4a6a45ef2477293c6ad6252fcfdc3ca1e0f434"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/retrieval_evaluator.py",
+      "sha256": "4615de3daae74124a34fe704b3c716072d376f8100ac779de999542e8ce86efc",
+      "source_sha256": "4615de3daae74124a34fe704b3c716072d376f8100ac779de999542e8ce86efc"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/evaluation/two_wiki_qa_evaluator.py",
+      "sha256": "6891ad8f91d7f41b05ddd1e34a4a7b5dfa1db516752ccc08fcd626266608dfb5",
+      "source_sha256": "6891ad8f91d7f41b05ddd1e34a4a7b5dfa1db516752ccc08fcd626266608dfb5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/gfmrag_retriever.py",
+      "sha256": "477b3f0f272b8bbc78a0cc3534efbc1c087feb3c9736ba3e59d356ccc3845472",
+      "source_sha256": "477b3f0f272b8bbc78a0cc3534efbc1c087feb3c9736ba3e59d356ccc3845472"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/entity_linking_model/__init__.py",
+      "sha256": "e7af98880a84e421a5e2663dab51571d45a814449b41d856d99d8d4f633bc047",
+      "source_sha256": "e7af98880a84e421a5e2663dab51571d45a814449b41d856d99d8d4f633bc047"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/entity_linking_model/base_model.py",
+      "sha256": "df298eb2b8b3455d42f22e7555689a985274e56b5e9f1fd86125d4e8386fc202",
+      "source_sha256": "df298eb2b8b3455d42f22e7555689a985274e56b5e9f1fd86125d4e8386fc202"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/entity_linking_model/colbert_el_model.py",
+      "sha256": "cd32f5742388b41a5fd621e82406c1514f9e6f3783a27cd50c6583113a991801",
+      "source_sha256": "cd32f5742388b41a5fd621e82406c1514f9e6f3783a27cd50c6583113a991801"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/entity_linking_model/dpr_el_model.py",
+      "sha256": "10485233b21ee094dab3221a5e527add416bff5fbc51b83c9e981a4f714179ec",
+      "source_sha256": "10485233b21ee094dab3221a5e527add416bff5fbc51b83c9e981a4f714179ec"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/graph_constructors/__init__.py",
+      "sha256": "9f09ad7bf0cf5334c9af87e7b3493f57956c8ff4674feb3dd09691919259df9d",
+      "source_sha256": "9f09ad7bf0cf5334c9af87e7b3493f57956c8ff4674feb3dd09691919259df9d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/graph_constructors/base_graph_constructor.py",
+      "sha256": "de75b96c4d4e197be8d410886777e721679194626b7c9e54e2924b0793fcfcb9",
+      "source_sha256": "de75b96c4d4e197be8d410886777e721679194626b7c9e54e2924b0793fcfcb9"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/graph_constructors/kg_constructor.py",
+      "sha256": "94b30de99417d13e0d934072528307395173d55b069947d78d0b238438562eb8",
+      "source_sha256": "94b30de99417d13e0d934072528307395173d55b069947d78d0b238438562eb8"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/langchain_util.py",
+      "sha256": "dbbc1334caaefffffbb5f9d78de043d84752f70c3cabe68802c71e243d2e94b2",
+      "source_sha256": "dbbc1334caaefffffbb5f9d78de043d84752f70c3cabe68802c71e243d2e94b2"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/ner_model/__init__.py",
+      "sha256": "73769eed25089df9b8e9765f32c2c6da7e9e36dd54ea94ed4034f1ff2a3e4b78",
+      "source_sha256": "73769eed25089df9b8e9765f32c2c6da7e9e36dd54ea94ed4034f1ff2a3e4b78"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/ner_model/base_model.py",
+      "sha256": "e4dc980dc936eae72e27460ed351a9cf1c4f4a3260227cd801feded7f2b02c18",
+      "source_sha256": "e4dc980dc936eae72e27460ed351a9cf1c4f4a3260227cd801feded7f2b02c18"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/ner_model/llm_ner_model.py",
+      "sha256": "71a4117e5658ef4bd60a5c6e326c86087a19b2a93b1c39954ee0880ab23a8908",
+      "source_sha256": "71a4117e5658ef4bd60a5c6e326c86087a19b2a93b1c39954ee0880ab23a8908"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/openie_extraction_instructions.py",
+      "sha256": "610b444ee6dfc04949378551bed80580a5e9711d92ed841c329b1540c3c7cd01",
+      "source_sha256": "610b444ee6dfc04949378551bed80580a5e9711d92ed841c329b1540c3c7cd01"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/openie_model/__init__.py",
+      "sha256": "70fc9bbf6f7ddc88529a0b93c6a87163cde2eacf6f6347be3f3dbb0960a185ed",
+      "source_sha256": "70fc9bbf6f7ddc88529a0b93c6a87163cde2eacf6f6347be3f3dbb0960a185ed"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/openie_model/base_model.py",
+      "sha256": "1d184006c86cc3198435174945c1b9362b0d99be2f90fa4ecd9fe0cb51b2bb2f",
+      "source_sha256": "1d184006c86cc3198435174945c1b9362b0d99be2f90fa4ecd9fe0cb51b2bb2f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/openie_model/llm_openie_model.py",
+      "sha256": "4a3fc1eb5a2542a9781d1e9663639068f7d664ab570258d55ef9815bcd617868",
+      "source_sha256": "4a3fc1eb5a2542a9781d1e9663639068f7d664ab570258d55ef9815bcd617868"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/__init__.py",
+      "sha256": "e59272cd224216e2133f2eb0258caa6099266d965c922be7846904c0d609d245",
+      "source_sha256": "e59272cd224216e2133f2eb0258caa6099266d965c922be7846904c0d609d245"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/base_sft_constructor.py",
+      "sha256": "dc82e3b507d25118007f92aa42b48a84f0fa8cd1ab255b3ae3ba08719202e6e0",
+      "source_sha256": "dc82e3b507d25118007f92aa42b48a84f0fa8cd1ab255b3ae3ba08719202e6e0"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/gfm_rag_constructor.py",
+      "sha256": "0fb652dafaa22cc0a9ce2f842ddf9fa68ed4ccc5ea954fe419158eaeab20ad02",
+      "source_sha256": "0fb652dafaa22cc0a9ce2f842ddf9fa68ed4ccc5ea954fe419158eaeab20ad02"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/gfm_reasoner_constructor.py",
+      "sha256": "bb70a7495626cc2980a9b6a8a5edc1781dd71993f74d9a17f85d1e84cfa0ab7c",
+      "source_sha256": "bb70a7495626cc2980a9b6a8a5edc1781dd71993f74d9a17f85d1e84cfa0ab7c"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/hipporag2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/hipporag2/rerank.py",
+      "sha256": "50714822204959280700b6ae4197622ac9170fd9819192f7c5dc468a58193f3e",
+      "source_sha256": "50714822204959280700b6ae4197622ac9170fd9819192f7c5dc468a58193f3e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/sft_constructors/hipporag2_constructor.py",
+      "sha256": "7dc9bc226d572a182fb3546d5d1f537650dc1e5b0a0ae098f0cfd4b71f191c9b",
+      "source_sha256": "7dc9bc226d572a182fb3546d5d1f537650dc1e5b0a0ae098f0cfd4b71f191c9b"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_construction/utils.py",
+      "sha256": "12c66ba85040f1e30330d11c17e7e2fb0106a07c77f5c424a16850d7038993f7",
+      "source_sha256": "12c66ba85040f1e30330d11c17e7e2fb0106a07c77f5c424a16850d7038993f7"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_datasets/__init__.py",
+      "sha256": "a97d895f874d51df43be649df57cbb4a494d934b765d2bd6b717c1302f81fe1f",
+      "source_sha256": "a97d895f874d51df43be649df57cbb4a494d934b765d2bd6b717c1302f81fe1f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_datasets/graph_dataset_loader.py",
+      "sha256": "aeaabac93fb338ec80719534f0af13212d6c38f09e8631536e5b041f7db1d2fa",
+      "source_sha256": "aeaabac93fb338ec80719534f0af13212d6c38f09e8631536e5b041f7db1d2fa"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_datasets/graph_index_dataset.py",
+      "sha256": "833ce0ce2fb730e7ee48b21da139a29672b8fb141487a20bb8655e2a4d610c23",
+      "source_sha256": "833ce0ce2fb730e7ee48b21da139a29672b8fb141487a20bb8655e2a4d610c23"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_index_datasets/graph_index_dataset_v1.py",
+      "sha256": "75ac031aaa10091dc8b23bbe2cb25e396d99af8a0efdbffdd41c28961e3f1804",
+      "source_sha256": "75ac031aaa10091dc8b23bbe2cb25e396d99af8a0efdbffdd41c28961e3f1804"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/graph_indexer.py",
+      "sha256": "f5bca02c783e6a4787de0d7fc9731624d51e206f55086c76fcfa9f6f46b3877a",
+      "source_sha256": "f5bca02c783e6a4787de0d7fc9731624d51e206f55086c76fcfa9f6f46b3877a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/llms/__init__.py",
+      "sha256": "2afe7ab77a8ca19ca1d3c09875ad4164dbfd26a531e85329f12da58567a982ca",
+      "source_sha256": "2afe7ab77a8ca19ca1d3c09875ad4164dbfd26a531e85329f12da58567a982ca"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/llms/base_hf_causal_model.py",
+      "sha256": "3f371f7dec728d1dbc8db549ae72c0454c2f754d597b3b598c2de7449435bf35",
+      "source_sha256": "3f371f7dec728d1dbc8db549ae72c0454c2f754d597b3b598c2de7449435bf35"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/llms/base_language_model.py",
+      "sha256": "5c7d87f96110933148de90407bae8e6bdf7de5630440cb19d6bea6186f071f9e",
+      "source_sha256": "5c7d87f96110933148de90407bae8e6bdf7de5630440cb19d6bea6186f071f9e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/llms/chatgpt.py",
+      "sha256": "a94c7570a440185c2366359536073ede43a734b340e3dcebc02aca522e512f42",
+      "source_sha256": "a94c7570a440185c2366359536073ede43a734b340e3dcebc02aca522e512f42"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/losses.py",
+      "sha256": "ce460a7edbc78358dcbdead4758fa5c98b73e25a9419571f9b829fe214e6ac3e",
+      "source_sha256": "ce460a7edbc78358dcbdead4758fa5c98b73e25a9419571f9b829fe214e6ac3e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/__init__.py",
+      "sha256": "5c0dd55a7fefa38827ec66daaa607b78d1a319917248fe8ce5358f6f48aaf36e",
+      "source_sha256": "5c0dd55a7fefa38827ec66daaa607b78d1a319917248fe8ce5358f6f48aaf36e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/base_model.py",
+      "sha256": "47c367e8e731d1d824b3ac96c74b8fa7e2f29b3b0f287453dca2a784753d8fd0",
+      "source_sha256": "47c367e8e731d1d824b3ac96c74b8fa7e2f29b3b0f287453dca2a784753d8fd0"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/gfm_rag_v1/__init__.py",
+      "sha256": "772b387a6ccfb39ccd4e87c0c1d23c04c6001c04848e67b8d55d10378b0b6f28",
+      "source_sha256": "772b387a6ccfb39ccd4e87c0c1d23c04c6001c04848e67b8d55d10378b0b6f28"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/gfm_rag_v1/model.py",
+      "sha256": "2ff4567480adfcb2bff56dae527c1230bdb06e58461bdf7c95fffbd683006215",
+      "source_sha256": "2ff4567480adfcb2bff56dae527c1230bdb06e58461bdf7c95fffbd683006215"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/gfm_rag_v1/rankers.py",
+      "sha256": "8d8ed016bb4046303902161037cbba1bad4d10f0e8e05491ab2398e815c65870",
+      "source_sha256": "8d8ed016bb4046303902161037cbba1bad4d10f0e8e05491ab2398e815c65870"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/gfm_reasoner/__init__.py",
+      "sha256": "3a3d5f5a38e8f74da9d9637f4dd29bfd065753aca82554240a172c3062b0ed9c",
+      "source_sha256": "3a3d5f5a38e8f74da9d9637f4dd29bfd065753aca82554240a172c3062b0ed9c"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/gfm_reasoner/model.py",
+      "sha256": "8e6a0c333a48d612f91c74354e7c251f1df244e4635a520c06c6c9dcdccf8e26",
+      "source_sha256": "8e6a0c333a48d612f91c74354e7c251f1df244e4635a520c06c6c9dcdccf8e26"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/__init__.py",
+      "sha256": "71996e80a36e24d16390e4ad85e434990ba2bbbb5852dafbc63f13ced191348d",
+      "source_sha256": "71996e80a36e24d16390e4ad85e434990ba2bbbb5852dafbc63f13ced191348d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/base_nbfnet.py",
+      "sha256": "25f8b74d540ee005e7618791c53afeb7240dddf2eb91d3e16ea670a25d8af24c",
+      "source_sha256": "25f8b74d540ee005e7618791c53afeb7240dddf2eb91d3e16ea670a25d8af24c"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/layers.py",
+      "sha256": "0fdaebf25d807a97dd1e85cd216806932bb07f4c153d93705ef32ffc1480a1c3",
+      "source_sha256": "0fdaebf25d807a97dd1e85cd216806932bb07f4c153d93705ef32ffc1480a1c3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/models.py",
+      "sha256": "0968731b7ede88baf7e849d817da56c3e55468e113d0159f9dca8e144b2945b4",
+      "source_sha256": "0968731b7ede88baf7e849d817da56c3e55468e113d0159f9dca8e144b2945b4"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/query_utils.py",
+      "sha256": "faa5d169169fc0c91bd08b7ef75f93fab01c1c500a1c9c09c8c9bc28b2941ef9",
+      "source_sha256": "faa5d169169fc0c91bd08b7ef75f93fab01c1c500a1c9c09c8c9bc28b2941ef9"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/__init__.py",
+      "sha256": "e4e28e39c6fc95ed4995b2b1b46e1801550e1dff705af44929633e5320414ae3",
+      "source_sha256": "e4e28e39c6fc95ed4995b2b1b46e1801550e1dff705af44929633e5320414ae3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/rspmm.py",
+      "sha256": "70a383930d661df8379dcebfd204ebb6727c6755adf39ac093c692b311b9b95e",
+      "source_sha256": "70a383930d661df8379dcebfd204ebb6727c6755adf39ac093c692b311b9b95e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/source/operator.cuh",
+      "sha256": "20512af854696b00108bacafb9451a5e96d9f10ba6a8c04586b804e763ed4c94",
+      "source_sha256": "20512af854696b00108bacafb9451a5e96d9f10ba6a8c04586b804e763ed4c94"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/source/rspmm.cpp",
+      "sha256": "d7e177542475586f86441d251d03ebaa8fbdc2b5858b38fbcac6c585d3b87e68",
+      "source_sha256": "d7e177542475586f86441d251d03ebaa8fbdc2b5858b38fbcac6c585d3b87e68"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/source/rspmm.cu",
+      "sha256": "4db66686c45f68d4404e8fd3c7c5593945137a2867eb4ce13f95a5fccf03edd5",
+      "source_sha256": "4db66686c45f68d4404e8fd3c7c5593945137a2867eb4ce13f95a5fccf03edd5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/source/rspmm.h",
+      "sha256": "74a018ac18f35ee9f9134eff37024e25121eb5072cd60deb316e02fe25eeb7f9",
+      "source_sha256": "74a018ac18f35ee9f9134eff37024e25121eb5072cd60deb316e02fe25eeb7f9"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/rspmm/source/util.cuh",
+      "sha256": "b7689c440ae85ad0c80395cd18247704b93187d5ac7c358e91f232435092777f",
+      "source_sha256": "b7689c440ae85ad0c80395cd18247704b93187d5ac7c358e91f232435092777f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/tasks.py",
+      "sha256": "64381e4df1177d595eecbd64f24571f975ccdd4aeef033ad3e55b6941f1a674a",
+      "source_sha256": "64381e4df1177d595eecbd64f24571f975ccdd4aeef033ad3e55b6941f1a674a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/util.py",
+      "sha256": "5bfd8885eb27d8dc7574d3d06c4acb32688b1e0cff0c2b09b84bccd4f99b5e0d",
+      "source_sha256": "5bfd8885eb27d8dc7574d3d06c4acb32688b1e0cff0c2b09b84bccd4f99b5e0d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/models/ultra/variadic.py",
+      "sha256": "75399d147c76fdf17de1e642a0d4d709b0580ba94e6be777e0595405b4ca5e20",
+      "source_sha256": "75399d147c76fdf17de1e642a0d4d709b0580ba94e6be777e0595405b4ca5e20"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/prompt_builder.py",
+      "sha256": "c8a3224473c521bee8ba2d0221684e29d59f27fdacfaf2003600bf8023b08eda",
+      "source_sha256": "c8a3224473c521bee8ba2d0221684e29d59f27fdacfaf2003600bf8023b08eda"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/__init__.py",
+      "sha256": "fcb8b1039066bb8a4da5cf915c4df2fdd41e22c418b90f90229f72d896e1deb3",
+      "source_sha256": "fcb8b1039066bb8a4da5cf915c4df2fdd41e22c418b90f90229f72d896e1deb3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/base_model.py",
+      "sha256": "1fc3885db0cc8fd03ef39869949cfd9cf6ff6cd3299352058321e52634c95d33",
+      "source_sha256": "1fc3885db0cc8fd03ef39869949cfd9cf6ff6cd3299352058321e52634c95d33"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/configuration_nvembed.py",
+      "sha256": "abc7421611504f84664e29f12a49a10efd2e8037596fa9d9cb9ee73f04da2d2e",
+      "source_sha256": "abc7421611504f84664e29f12a49a10efd2e8037596fa9d9cb9ee73f04da2d2e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/modeling_nvembed.py",
+      "sha256": "4d485db23b94585b7d961404f82a7c5f897ac4c250fc2a2676eba7c4af1121d2",
+      "source_sha256": "4d485db23b94585b7d961404f82a7c5f897ac4c250fc2a2676eba7c4af1121d2"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/nv_embed.py",
+      "sha256": "fbfe02ec483655df4de654c838f51003a84b131b5c9cab5afbf83e6dde0edae8",
+      "source_sha256": "fbfe02ec483655df4de654c838f51003a84b131b5c9cab5afbf83e6dde0edae8"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/text_emb_models/qwen3_model.py",
+      "sha256": "80e0bdafb86b943c8a503aa4678d015b38c1d3ee3978708ff9c1e043de65b09a",
+      "source_sha256": "80e0bdafb86b943c8a503aa4678d015b38c1d3ee3978708ff9c1e043de65b09a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/trainers/__init__.py",
+      "sha256": "e82015302d1f8ebf5004f32ab34b991dabb9992fd1a87478a6415bdb96a7ddc2",
+      "source_sha256": "e82015302d1f8ebf5004f32ab34b991dabb9992fd1a87478a6415bdb96a7ddc2"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/trainers/base_trainer.py",
+      "sha256": "186d41cc437c0f1c1a07849d37cf61ed54a6df1326eedf7fec0259d0fd9ae4cb",
+      "source_sha256": "186d41cc437c0f1c1a07849d37cf61ed54a6df1326eedf7fec0259d0fd9ae4cb"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/trainers/kgc_trainer.py",
+      "sha256": "3038ab76ad308c025d4dfc56f9b8512ed59c51ff130dfd54f7c587e4c05bb0fc",
+      "source_sha256": "3038ab76ad308c025d4dfc56f9b8512ed59c51ff130dfd54f7c587e4c05bb0fc"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/trainers/sft_trainer.py",
+      "sha256": "4e082ec64d66230f70333c507027f88939150e950db08682386efccc6bf63361",
+      "source_sha256": "4e082ec64d66230f70333c507027f88939150e950db08682386efccc6bf63361"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/trainers/training_args.py",
+      "sha256": "5b088347901c6c8c87d9499c81a2ca907283361e86da121cf72910060f070af3",
+      "source_sha256": "5b088347901c6c8c87d9499c81a2ca907283361e86da121cf72910060f070af3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/__init__.py",
+      "sha256": "11d1f62b63e866b9c3c4fb2efb128a8e8830c542e7a7a711dd9498654b55ab0d",
+      "source_sha256": "11d1f62b63e866b9c3c4fb2efb128a8e8830c542e7a7a711dd9498654b55ab0d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/dist_graph_utils.py",
+      "sha256": "8ccc610b8639cc6a5d61aed56ae3712a8e7a4fefb4f70ac90956406e410b6059",
+      "source_sha256": "8ccc610b8639cc6a5d61aed56ae3712a8e7a4fefb4f70ac90956406e410b6059"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/qa_utils.py",
+      "sha256": "2b613006f879ecec3a42d0e14ea1d49a025e9d34bb80079a337a40d4e5c710ca",
+      "source_sha256": "2b613006f879ecec3a42d0e14ea1d49a025e9d34bb80079a337a40d4e5c710ca"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/setup_training.py",
+      "sha256": "3a15c7fc611ecef231ff5696ad49dfa75dd0377d74520582acedae1cfe1a313b",
+      "source_sha256": "3a15c7fc611ecef231ff5696ad49dfa75dd0377d74520582acedae1cfe1a313b"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/util.py",
+      "sha256": "ab0d53168df855a772a7854f6759bbfa01c5293798e2475544b3af4b51294f4d",
+      "source_sha256": "ab0d53168df855a772a7854f6759bbfa01c5293798e2475544b3af4b51294f4d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/utils/wandb_utils.py",
+      "sha256": "4d042e0a583845cc79dbed36eef112c3c162a5ee6aad91db20d39c1951d4b4c3",
+      "source_sha256": "4d042e0a583845cc79dbed36eef112c3c162a5ee6aad91db20d39c1951d4b4c3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/agent_prompt/2wikimultihopqa_ircot.yaml",
+      "sha256": "8bb6313f8c0e3d7f1d186191944c22ad3d96a52d838972a12f3b2764e727287d",
+      "source_sha256": "8bb6313f8c0e3d7f1d186191944c22ad3d96a52d838972a12f3b2764e727287d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/agent_prompt/hotpotqa_ircot.yaml",
+      "sha256": "e961808a1b85ce596991bb651d1061890b2201b751e4d3d26c9b235167d8312d",
+      "source_sha256": "e961808a1b85ce596991bb651d1061890b2201b751e4d3d26c9b235167d8312d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/agent_prompt/musique_ircot.yaml",
+      "sha256": "31326855b6163e9416ff516bbf72edc4db9923a7646fd3a3007e4ab1c40c8238",
+      "source_sha256": "31326855b6163e9416ff516bbf72edc4db9923a7646fd3a3007e4ab1c40c8238"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/doc_ranker/doc_ent_ranker.yaml",
+      "sha256": "a74dada038b3b824e1ee33891030decbf3c1c7fb0fec7a3dc27de2fecf500350",
+      "source_sha256": "a74dada038b3b824e1ee33891030decbf3c1c7fb0fec7a3dc27de2fecf500350"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/doc_ranker/idf_ranker.yaml",
+      "sha256": "92a46fe03ff05bb0c701ec85b8c13164eebe35d40347f42e81bd1c4b837ba888",
+      "source_sha256": "92a46fe03ff05bb0c701ec85b8c13164eebe35d40347f42e81bd1c4b837ba888"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/doc_ranker/idf_topk_ranker.yaml",
+      "sha256": "027291008816ff912a812c524f05d2d99dbbdeca7622bffe74fb97332c0b0f28",
+      "source_sha256": "027291008816ff912a812c524f05d2d99dbbdeca7622bffe74fb97332c0b0f28"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/doc_ranker/simple_ranker.yaml",
+      "sha256": "630fa1fd905da0ca48269e6f84d0dd69ad5ac56d43cc03a4148fed7c32eb1371",
+      "source_sha256": "630fa1fd905da0ca48269e6f84d0dd69ad5ac56d43cc03a4148fed7c32eb1371"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/doc_ranker/topk_ranker.yaml",
+      "sha256": "551d6e4a7a895f3562d34a05029c67af0bbf3eda93f0df804c46d9a70555968e",
+      "source_sha256": "551d6e4a7a895f3562d34a05029c67af0bbf3eda93f0df804c46d9a70555968e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/colbert_el_model.yaml",
+      "sha256": "5d0c284652eb3590dd2722e8be67f2ea1e64ea729995e1dd529b8df9112fdd13",
+      "source_sha256": "5d0c284652eb3590dd2722e8be67f2ea1e64ea729995e1dd529b8df9112fdd13"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/dpr_el_model.yaml",
+      "sha256": "9e0fc968675b5af6da2a5e27b467971d212b61f9afe8c0535170f0b5dc6451cd",
+      "source_sha256": "9e0fc968675b5af6da2a5e27b467971d212b61f9afe8c0535170f0b5dc6451cd"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/gte_large_en_1.5.yaml",
+      "sha256": "3025a996db690161712e75145b1aa3fbd3858c559a433633218ff3626bf580e6",
+      "source_sha256": "3025a996db690161712e75145b1aa3fbd3858c559a433633218ff3626bf580e6"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/gte_qwen2_1.5b.yaml",
+      "sha256": "ac1884dad95ccc9e39b5ea730d668567f9140531911bad518123fb7876e6139d",
+      "source_sha256": "ac1884dad95ccc9e39b5ea730d668567f9140531911bad518123fb7876e6139d"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/gte_qwen2_7b.yaml",
+      "sha256": "932bc2497274b30221b18a9d25361b47bb75ae3c390306e01774f90d1f4f52fa",
+      "source_sha256": "932bc2497274b30221b18a9d25361b47bb75ae3c390306e01774f90d1f4f52fa"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/el_model/nv_embed_v2.yaml",
+      "sha256": "57c67c69f00ddc9d9e4c365e6320529d07cc6cdfa1a3b6313485ef8a35a5f872",
+      "source_sha256": "57c67c69f00ddc9d9e4c365e6320529d07cc6cdfa1a3b6313485ef8a35a5f872"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/exp_visualize_path.yaml",
+      "sha256": "575d866b5335ce324b24846cc03390b453450a6ab5907cb61cbbc2e3763f4417",
+      "source_sha256": "575d866b5335ce324b24846cc03390b453450a6ab5907cb61cbbc2e3763f4417"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/index_dataset.yaml",
+      "sha256": "15403e45622788405b8e9f0f494d34e1d506b125da6ab71c65abf6360ff07ff9",
+      "source_sha256": "15403e45622788405b8e9f0f494d34e1d506b125da6ab71c65abf6360ff07ff9"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/kgc_training.yaml",
+      "sha256": "7bbf88782cb3c342b77c7a3e3a411d62b4e720f67c240d01111186aec3cc91e8",
+      "source_sha256": "7bbf88782cb3c342b77c7a3e3a411d62b4e720f67c240d01111186aec3cc91e8"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/qa_inference.yaml",
+      "sha256": "d7057db2a1459e81ef3515edfd0e1b72d76be7cfbdd3b25922ff8de150fe7979",
+      "source_sha256": "d7057db2a1459e81ef3515edfd0e1b72d76be7cfbdd3b25922ff8de150fe7979"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/qa_ircot_inference.yaml",
+      "sha256": "37853364a786da463f9db27cb698cedcd183f9aec2248915732dce6b472ebd96",
+      "source_sha256": "37853364a786da463f9db27cb698cedcd183f9aec2248915732dce6b472ebd96"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/sft_training.yaml",
+      "sha256": "bebf6023ecce286471d71362c49eacf13ffa5eea533d3406c0264612ec8f7d98",
+      "source_sha256": "bebf6023ecce286471d71362c49eacf13ffa5eea533d3406c0264612ec8f7d98"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_rag/visualize_path.yaml",
+      "sha256": "0f2d802fd745b1b977fc2307e650acd5b20c7929039393095cc38e7dda0426f6",
+      "source_sha256": "0f2d802fd745b1b977fc2307e650acd5b20c7929039393095cc38e7dda0426f6"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/index_dataset.yaml",
+      "sha256": "662eb1eea9a62459e0bee934f970ff5a492aee238e3c2906f0b46be6e8d60b68",
+      "source_sha256": "662eb1eea9a62459e0bee934f970ff5a492aee238e3c2906f0b46be6e8d60b68"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/kgc_trianing.yaml",
+      "sha256": "0c622c6596ac48b99e5e2811e60107e042fd648f4eba5e0b57e2b9fa29c30b1a",
+      "source_sha256": "0c622c6596ac48b99e5e2811e60107e042fd648f4eba5e0b57e2b9fa29c30b1a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/qa_inference.yaml",
+      "sha256": "d7057db2a1459e81ef3515edfd0e1b72d76be7cfbdd3b25922ff8de150fe7979",
+      "source_sha256": "d7057db2a1459e81ef3515edfd0e1b72d76be7cfbdd3b25922ff8de150fe7979"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/sft_training.yaml",
+      "sha256": "c6be06a517ec740d54fec962e6d4cde1f0df14cd1214fd294ed0cc58fa8f75b5",
+      "source_sha256": "c6be06a517ec740d54fec962e6d4cde1f0df14cd1214fd294ed0cc58fa8f75b5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/sft_training_w_answer.yaml",
+      "sha256": "2de00de85aa93332bde28f51305fb972933624aa3e74d621478cb6d5069ff759",
+      "source_sha256": "2de00de85aa93332bde28f51305fb972933624aa3e74d621478cb6d5069ff759"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/stage3_qa_ircot_inference.yaml",
+      "sha256": "298cc111c3babefd92b3bab92acd755a3b1a8eb7f2a04ec9b4f00e753e595d6b",
+      "source_sha256": "298cc111c3babefd92b3bab92acd755a3b1a8eb7f2a04ec9b4f00e753e595d6b"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/gfm_reasoner/visualize_path.yaml",
+      "sha256": "905a596a74a82499d10b5b21c726a70fd21034bfa1c3fcd51cdfee3302982d05",
+      "source_sha256": "905a596a74a82499d10b5b21c726a70fd21034bfa1c3fcd51cdfee3302982d05"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/graph_constructor/kg_constructor.yaml",
+      "sha256": "d6ea4a4fcf5ac6921f955d87014e593b8543ebe2ea69046a590709743844309f",
+      "source_sha256": "d6ea4a4fcf5ac6921f955d87014e593b8543ebe2ea69046a590709743844309f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/ner_model/llm_ner_model.yaml",
+      "sha256": "9102f04b13ae0dca840ee20fc43015be91c3d428ea21e781a406b19d846ca4f2",
+      "source_sha256": "9102f04b13ae0dca840ee20fc43015be91c3d428ea21e781a406b19d846ca4f2"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/openie_model/llm_openie_model.yaml",
+      "sha256": "c79762cd8781005cd20030d2428b0b08827df455ff7ae7b3528537395328f571",
+      "source_sha256": "c79762cd8781005cd20030d2428b0b08827df455ff7ae7b3528537395328f571"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_evaluator/2wikimultihopqa.yaml",
+      "sha256": "54ed246fe61e0ae46406573666773985541b289f5ce8e2a7e9379b517249e603",
+      "source_sha256": "54ed246fe61e0ae46406573666773985541b289f5ce8e2a7e9379b517249e603"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_evaluator/hotpotqa.yaml",
+      "sha256": "00dca5a0fbd377a7d9e0191ca00ddc6eb75a6a7fae2321d34e16e44d9b95a7b5",
+      "source_sha256": "00dca5a0fbd377a7d9e0191ca00ddc6eb75a6a7fae2321d34e16e44d9b95a7b5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_evaluator/musique.yaml",
+      "sha256": "7d40ae6763292fc32417d3d56fe8bb242ad1a5bb9166eee4989199f39a7a4920",
+      "source_sha256": "7d40ae6763292fc32417d3d56fe8bb242ad1a5bb9166eee4989199f39a7a4920"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_prompt/2wikimultihopqa.yaml",
+      "sha256": "f63ffb362cd4474c0bfa55fc925b75faec21d8c4a3ca63e5e241ba04ff40a96a",
+      "source_sha256": "f63ffb362cd4474c0bfa55fc925b75faec21d8c4a3ca63e5e241ba04ff40a96a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_prompt/hotpotqa.yaml",
+      "sha256": "a6f507ad1e796a25d124d2bda7b8351471b1a596448cbf519d5dbad21fd13cad",
+      "source_sha256": "a6f507ad1e796a25d124d2bda7b8351471b1a596448cbf519d5dbad21fd13cad"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_prompt/musique.yaml",
+      "sha256": "aa2501d501562a6d0a6e2b5a3269f02279542ad36c32577f14fb220306d1c077",
+      "source_sha256": "aa2501d501562a6d0a6e2b5a3269f02279542ad36c32577f14fb220306d1c077"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/qa_prompt/zero_shot.yaml",
+      "sha256": "83cde1a09a9fa7757e424c0bf59b1ad32590500f162765706b301db1af84ed7c",
+      "source_sha256": "83cde1a09a9fa7757e424c0bf59b1ad32590500f162765706b301db1af84ed7c"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/sft_constructor/gfm_rag_sft_constructor.yaml",
+      "sha256": "42dd722864977df01c7512b593351eeec2949e070d80987f2bc170b59cca1ed3",
+      "source_sha256": "42dd722864977df01c7512b593351eeec2949e070d80987f2bc170b59cca1ed3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/sft_constructor/gfm_reasoner_sft_constructor.yaml",
+      "sha256": "75f67f77ba6fbfb4dc870e6a652b0d76b67a8b8566b8e52ecc2d7e5767434308",
+      "source_sha256": "75f67f77ba6fbfb4dc870e6a652b0d76b67a8b8566b8e52ecc2d7e5767434308"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/sft_constructor/hipporag2_sft_constructor.yaml",
+      "sha256": "42ad104acb2df30996dc820912ee5a7ad97630114e564e4bc847a576e10bdef7",
+      "source_sha256": "42ad104acb2df30996dc820912ee5a7ad97630114e564e4bc847a576e10bdef7"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/bge_large_en.yaml",
+      "sha256": "1133bd6be634cc2f60a8ddc36bb9d4ef2cf3810623a149b744465c83bfef1c07",
+      "source_sha256": "1133bd6be634cc2f60a8ddc36bb9d4ef2cf3810623a149b744465c83bfef1c07"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/gte_large_en_1.5.yaml",
+      "sha256": "05c21746ca5aa84177372620a23bcec6e0578bc48bb6538e00c9f115629d864a",
+      "source_sha256": "05c21746ca5aa84177372620a23bcec6e0578bc48bb6538e00c9f115629d864a"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/gte_qwen2_1.5b.yaml",
+      "sha256": "88726bb55d975725ac1e8745213745f951be17f82e3deb5d4bbed9bbe29bb79f",
+      "source_sha256": "88726bb55d975725ac1e8745213745f951be17f82e3deb5d4bbed9bbe29bb79f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/gte_qwen2_7b.yaml",
+      "sha256": "f44b11cb4d3672f248ad56dfd660faf85027b8d44e54d72ab10dd93caba83d71",
+      "source_sha256": "f44b11cb4d3672f248ad56dfd660faf85027b8d44e54d72ab10dd93caba83d71"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/mpnet.yaml",
+      "sha256": "4ecb822f4aaaccfa9e4019a824427377a3d5812f4d061a3ea8f467efdf691d7f",
+      "source_sha256": "4ecb822f4aaaccfa9e4019a824427377a3d5812f4d061a3ea8f467efdf691d7f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/nv_embed_v2.yaml",
+      "sha256": "9e4d331a6e838da5dfd08356a4e31e30c5ffcf54a86e7e423e583e56c80788f5",
+      "source_sha256": "9e4d331a6e838da5dfd08356a4e31e30c5ffcf54a86e7e423e583e56c80788f5"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/qwen3.yaml",
+      "sha256": "00896a27837157a9fac4887fc2ea46f46bc05ad9809fd04fcf5aa86dada65418",
+      "source_sha256": "00896a27837157a9fac4887fc2ea46f46bc05ad9809fd04fcf5aa86dada65418"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/text_emb_model/qwen3_8b.yaml",
+      "sha256": "68804e58d62c54b3c2ae856e4896b567b5e33719156272493c1d842d033d105f",
+      "source_sha256": "68804e58d62c54b3c2ae856e4896b567b5e33719156272493c1d842d033d105f"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/config/wandb/default.yaml",
+      "sha256": "918ecb57d5425c441ffe91f98c5a511f8bfabd80a66c1f8107ff1e81fc840ed1",
+      "source_sha256": "918ecb57d5425c441ffe91f98c5a511f8bfabd80a66c1f8107ff1e81fc840ed1"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/experiments/visualize_path.py",
+      "sha256": "acf33723b14def5389500928a67f3dcd7bcfc896ce2ce3b868db51a76ee05cac",
+      "source_sha256": "acf33723b14def5389500928a67f3dcd7bcfc896ce2ce3b868db51a76ee05cac"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/index_dataset.py",
+      "sha256": "d88bb1a331bfad2870805420f793901ea64295d7574ed07402c82062c3fdf42c",
+      "source_sha256": "d88bb1a331bfad2870805420f793901ea64295d7574ed07402c82062c3fdf42c"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/kgc_training.py",
+      "sha256": "d1e5511b94bd789fcfaf6c825ad96c320581bfc6c920fcce3575d556ebdda59e",
+      "source_sha256": "d1e5511b94bd789fcfaf6c825ad96c320581bfc6c920fcce3575d556ebdda59e"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/qa.py",
+      "sha256": "a20a0a8fa27fce7f20b577bbe9fdb87b9ec36c3fc0b947dcc15cd230b4f350b1",
+      "source_sha256": "a20a0a8fa27fce7f20b577bbe9fdb87b9ec36c3fc0b947dcc15cd230b4f350b1"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/qa_ircot_inference.py",
+      "sha256": "f91a4764ebb8b90195db0a6129aeda12c7d525c969d8bc9e1237771f8cac51d3",
+      "source_sha256": "f91a4764ebb8b90195db0a6129aeda12c7d525c969d8bc9e1237771f8cac51d3"
+    },
+    {
+      "file": "repos/gfm-rag/gfmrag/workflow/sft_training.py",
+      "sha256": "4f6877724d6a055f0b5938eabd469893410350bbd54bfd0e6c1a7b41b6af0f10",
+      "source_sha256": "4f6877724d6a055f0b5938eabd469893410350bbd54bfd0e6c1a7b41b6af0f10"
+    },
+    {
+      "file": "repos/gfm-rag/LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "source_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "file": "repos/gfm-rag/mkdocs.yml",
+      "sha256": "4e393a975617dab8d747aa3253c7f575def778fd9dc9f25678a7713b94422050",
+      "source_sha256": "4e393a975617dab8d747aa3253c7f575def778fd9dc9f25678a7713b94422050"
+    },
+    {
+      "file": "repos/gfm-rag/mypy.ini",
+      "sha256": "fd6c60399f4e108c1f67ffb0316c70233d6e7911973d473e22b87b6e479be7f6",
+      "source_sha256": "fd6c60399f4e108c1f67ffb0316c70233d6e7911973d473e22b87b6e479be7f6"
+    },
+    {
+      "file": "repos/gfm-rag/poetry.lock",
+      "sha256": "32f197734d4be0a89d2bc30fb8ce17221f988911db6096efd8f312121278b262",
+      "source_sha256": "32f197734d4be0a89d2bc30fb8ce17221f988911db6096efd8f312121278b262"
+    },
+    {
+      "file": "repos/gfm-rag/pyproject.toml",
+      "sha256": "d1195aab7ed386cd873e97364457cbefb0a252889e6c0267987f2e6841a30f69",
+      "source_sha256": "d1195aab7ed386cd873e97364457cbefb0a252889e6c0267987f2e6841a30f69"
+    },
+    {
+      "file": "repos/gfm-rag/pytest.ini",
+      "sha256": "5904096b3a419a6dbe99d8582b52b2968500160ab66137602ea23dd829480f75",
+      "source_sha256": "5904096b3a419a6dbe99d8582b52b2968500160ab66137602ea23dd829480f75"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/g-reasoner/stage1_data_index.sh",
+      "sha256": "eb3e21a5a5a57beaf37aafe886cd5d83469a2d83f3a2a8179566171d2c813d5e",
+      "source_sha256": "eb3e21a5a5a57beaf37aafe886cd5d83469a2d83f3a2a8179566171d2c813d5e"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/g-reasoner/stage2_evaluate.sh",
+      "sha256": "8c616cfe43308834b005be161f5c38e5d4571c9bb2b9be59449c9c10d2df10bc",
+      "source_sha256": "8c616cfe43308834b005be161f5c38e5d4571c9bb2b9be59449c9c10d2df10bc"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/g-reasoner/stage2_finetune.sh",
+      "sha256": "cac5f6f5dc5f8362a8317b53104d014cd1838cde351e516521a53e206b3d85bf",
+      "source_sha256": "cac5f6f5dc5f8362a8317b53104d014cd1838cde351e516521a53e206b3d85bf"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/g-reasoner/stage3_qa_inference.sh",
+      "sha256": "c6470c53e35a71d29c8be531b4d9aec6931e9a1ebdbf9d9cb0c2b012788b1328",
+      "source_sha256": "c6470c53e35a71d29c8be531b4d9aec6931e9a1ebdbf9d9cb0c2b012788b1328"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/g-reasoner/stage3_qa_ircot_inference.sh",
+      "sha256": "6727e7795dfee50e30a5dce1cdc4fe784c5feabba01a640d6ecfe1f9fc795067",
+      "source_sha256": "6727e7795dfee50e30a5dce1cdc4fe784c5feabba01a640d6ecfe1f9fc795067"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/gfm-rag/stage1_data_index.sh",
+      "sha256": "4e2be6f9a1e260c846129c28a27b35bdd4b9495efee1da6ad259d202b249bcd9",
+      "source_sha256": "4e2be6f9a1e260c846129c28a27b35bdd4b9495efee1da6ad259d202b249bcd9"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/gfm-rag/stage2_finetune.sh",
+      "sha256": "b38ca6358a20db9de68d6392ed09441ec29896d50702368b4a7b32359d344cfc",
+      "source_sha256": "b38ca6358a20db9de68d6392ed09441ec29896d50702368b4a7b32359d344cfc"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/gfm-rag/stage2_pretrain.sh",
+      "sha256": "2dfceba973b22ec8cce1762cea22d02699c3d7ec0b6b4cf5963eb3d83c80bad8",
+      "source_sha256": "2dfceba973b22ec8cce1762cea22d02699c3d7ec0b6b4cf5963eb3d83c80bad8"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/gfm-rag/stage3_qa_inference.sh",
+      "sha256": "150d92714c028ba2cf8dcf264ebd5bfacaec16699333b752503fb0f58cbee1cf",
+      "source_sha256": "150d92714c028ba2cf8dcf264ebd5bfacaec16699333b752503fb0f58cbee1cf"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/gfm-rag/stage3_qa_ircot_inference.sh",
+      "sha256": "74cc0710bcdcd0d4ad97d65418819de65fb66e45c4f1408e5abecabfa081b22f",
+      "source_sha256": "74cc0710bcdcd0d4ad97d65418819de65fb66e45c4f1408e5abecabfa081b22f"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/graphrag_bench_cs_qa_inference.yaml",
+      "sha256": "7953a9b49bee7546349b527d24d0beaece43ad61561d90b77715e08756c6eb1f",
+      "source_sha256": "7953a9b49bee7546349b527d24d0beaece43ad61561d90b77715e08756c6eb1f"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/graphrag_benchmark_qa_inference.yaml",
+      "sha256": "88e1e6e03295e2b6a506353b4684e79954e7eceec5000be62b96702f52a63534",
+      "source_sha256": "88e1e6e03295e2b6a506353b4684e79954e7eceec5000be62b96702f52a63534"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_bench_cs/fb.yaml",
+      "sha256": "854d71961e9458507c6520ea43d665dff71099bbbfb865de0336d8f73625f23e",
+      "source_sha256": "854d71961e9458507c6520ea43d665dff71099bbbfb865de0336d8f73625f23e"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_bench_cs/mc.yaml",
+      "sha256": "eceef8827ac4d099f978de651775b487357dd895f1047ea9abeaab4db66dbeb6",
+      "source_sha256": "eceef8827ac4d099f978de651775b487357dd895f1047ea9abeaab4db66dbeb6"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_bench_cs/ms.yaml",
+      "sha256": "975de4aa37e8ae173806e357ff705a5f9211fee1cdf8a5c87d035ad2f3932c53",
+      "source_sha256": "975de4aa37e8ae173806e357ff705a5f9211fee1cdf8a5c87d035ad2f3932c53"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_bench_cs/oe.yaml",
+      "sha256": "69dc3a626e5765987b3e5c8c0c28193275775ab4ef95f3ac813c933f9afd81f2",
+      "source_sha256": "69dc3a626e5765987b3e5c8c0c28193275775ab4ef95f3ac813c933f9afd81f2"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_bench_cs/tf.yaml",
+      "sha256": "bf6063051e7981c171bb590e52bf7a8d33c40a8527d49aafc7b7a22b2a3e3fdf",
+      "source_sha256": "bf6063051e7981c171bb590e52bf7a8d33c40a8527d49aafc7b7a22b2a3e3fdf"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/medical/complex_reasoning.yaml",
+      "sha256": "67bab5d36296db71547c38e58de798af817891be45be70636b8a3750fbb981a4",
+      "source_sha256": "67bab5d36296db71547c38e58de798af817891be45be70636b8a3750fbb981a4"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/medical/contextual_summary.yaml",
+      "sha256": "10c8cf68636b47fac58e845fd55ee355fa241f52a2c9fa0fd222523796df4ab0",
+      "source_sha256": "10c8cf68636b47fac58e845fd55ee355fa241f52a2c9fa0fd222523796df4ab0"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/medical/creative_generation.yaml",
+      "sha256": "919323b86fb05bc11d8546aa24db005fc9211fde164a324d588e32efbb201dc6",
+      "source_sha256": "919323b86fb05bc11d8546aa24db005fc9211fde164a324d588e32efbb201dc6"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/medical/fact_retrieval.yaml",
+      "sha256": "e31b2164d95a093e2924ae738e805ede8d49779a9cd26602f1f3b48d83372bf9",
+      "source_sha256": "e31b2164d95a093e2924ae738e805ede8d49779a9cd26602f1f3b48d83372bf9"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/novel/complex_reasoning.yaml",
+      "sha256": "8a0044209146b94f3fec8d284dfa4d1299eb70420440a26992ca5db4922a486a",
+      "source_sha256": "8a0044209146b94f3fec8d284dfa4d1299eb70420440a26992ca5db4922a486a"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/novel/contextual_summary.yaml",
+      "sha256": "5bc186b83fe0d5a9bcc58968514381a9078634e82c95bb5189ecadd7c151428f",
+      "source_sha256": "5bc186b83fe0d5a9bcc58968514381a9078634e82c95bb5189ecadd7c151428f"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/novel/creative_generation.yaml",
+      "sha256": "526a615586d54a3f2ef87629319fb8f765123ae90b423923051ee5d7815d3468",
+      "source_sha256": "526a615586d54a3f2ef87629319fb8f765123ae90b423923051ee5d7815d3468"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/config/qa_prompt/graphrag_benchmark/novel/fact_retrieval.yaml",
+      "sha256": "c831d1f7f72bcce0cd07c6ec1a76e957dc524ee9fb6270e99b486166945d7816",
+      "source_sha256": "c831d1f7f72bcce0cd07c6ec1a76e957dc524ee9fb6270e99b486166945d7816"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/graphrag_bench_qa.py",
+      "sha256": "cd3b6a7f1c40e19124f743c52ceecfb155164f49600ce0aa7790494217dc8695",
+      "source_sha256": "cd3b6a7f1c40e19124f743c52ceecfb155164f49600ce0aa7790494217dc8695"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/graphrag_benchmark_qa.py",
+      "sha256": "afcafb70294b26a309e35ef2e90ef17ba6603e506cd489088620020857aec336",
+      "source_sha256": "afcafb70294b26a309e35ef2e90ef17ba6603e506cd489088620020857aec336"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/graphrag_benchmark/prompt_utils.py",
+      "sha256": "4b4e6d1ab6bcf35106978170b4fc347b0b097fba3f3e05dafc3c0099f8191069",
+      "source_sha256": "4b4e6d1ab6bcf35106978170b4fc347b0b097fba3f3e05dafc3c0099f8191069"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/scripts/stage1_data_index.sh",
+      "sha256": "ef3344e1f9a34436a30e17a4c349d6483011b39faf04dd74d2ef521a2776035b",
+      "source_sha256": "ef3344e1f9a34436a30e17a4c349d6483011b39faf04dd74d2ef521a2776035b"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/scripts/stage2_retrieval.sh",
+      "sha256": "f303d4551908c437ead0f6738461e205b1316c9ea80e1032a30709d9c8df957c",
+      "source_sha256": "f303d4551908c437ead0f6738461e205b1316c9ea80e1032a30709d9c8df957c"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/scripts/stage3_qa_inference_graphrag_bench.sh",
+      "sha256": "d30bd5f423ff011886fa9cd1b3a0d5bc5a69df0660bbba819373ecba047152cf",
+      "source_sha256": "d30bd5f423ff011886fa9cd1b3a0d5bc5a69df0660bbba819373ecba047152cf"
+    },
+    {
+      "file": "repos/gfm-rag/scripts/graphrag_benchmark_evaluation/scripts/stage3_qa_inference_graphrag_benchmark.sh",
+      "sha256": "09ec3bd83b02ed46574bf272cbd262aa9116c3fdc69bf3896d5f2d0da9dec6ab",
+      "source_sha256": "09ec3bd83b02ed46574bf272cbd262aa9116c3fdc69bf3896d5f2d0da9dec6ab"
+    },
+    {
+      "file": "repos/gfm-rag/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/gfm-rag/tests/profile_split_graph.py",
+      "sha256": "47868b51c776f90a8432f2862b47b0594d5f6bd70a6dba8fe11f763e52c1df1d",
+      "source_sha256": "47868b51c776f90a8432f2862b47b0594d5f6bd70a6dba8fe11f763e52c1df1d"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_el_model.py",
+      "sha256": "39eb5b5bf5c6f4177e40e1713d89672637f5ebcd7af50b33312319a97b42c42f",
+      "source_sha256": "39eb5b5bf5c6f4177e40e1713d89672637f5ebcd7af50b33312319a97b42c42f"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_gfm_rag_scripts.py",
+      "sha256": "fadb212d481aa0048155fd8b78916a1c173697536687d80cceb3485061309b27",
+      "source_sha256": "fadb212d481aa0048155fd8b78916a1c173697536687d80cceb3485061309b27"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_gfmrag_retriever.py",
+      "sha256": "741e511548b2ab17a1f644f775016bb15d94dbf98701bbdecfc12b2c1a4bf301",
+      "source_sha256": "741e511548b2ab17a1f644f775016bb15d94dbf98701bbdecfc12b2c1a4bf301"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_ner_model.py",
+      "sha256": "31754eb37ee23c9342228aab02467e6b90194febacc17ee23e0caed212fb3f54",
+      "source_sha256": "31754eb37ee23c9342228aab02467e6b90194febacc17ee23e0caed212fb3f54"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_ner_model_parallel.py",
+      "sha256": "6d460649e248b471d3af2dc023234e6434a64c00e8bfa0e8183bcebd9454aaf6",
+      "source_sha256": "6d460649e248b471d3af2dc023234e6434a64c00e8bfa0e8183bcebd9454aaf6"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_openie_model.py",
+      "sha256": "5641e644f064a12c5d030c14cabe38581304d253d844338516e33af92388a934",
+      "source_sha256": "5641e644f064a12c5d030c14cabe38581304d253d844338516e33af92388a934"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_openie_model_parallel.py",
+      "sha256": "5f1583a821e451c257da9249c9ddbfa1c4373d7f9a4dd73231f375b2596f73c2",
+      "source_sha256": "5f1583a821e451c257da9249c9ddbfa1c4373d7f9a4dd73231f375b2596f73c2"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_pretrained_dataset_config.py",
+      "sha256": "bd7d172906384d40f3094cd17da7206591cb4d0204d0d3461b1feb839914a3ed",
+      "source_sha256": "bd7d172906384d40f3094cd17da7206591cb4d0204d0d3461b1feb839914a3ed"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_stage2_dataset.py",
+      "sha256": "ad24aa496ab96debe30a799ee9dfa9e96782955de311aaeaeab991481ea044be",
+      "source_sha256": "ad24aa496ab96debe30a799ee9dfa9e96782955de311aaeaeab991481ea044be"
+    },
+    {
+      "file": "repos/gfm-rag/tests/test_text_emb_model.py",
+      "sha256": "710ca3e536357d7f88fbf7d634b1459a797cb763de433dd33d7802f8393b59cb",
+      "source_sha256": "710ca3e536357d7f88fbf7d634b1459a797cb763de433dd33d7802f8393b59cb"
+    },
+    {
+      "file": "repos/HippoRAG/examples/_shared.py",
+      "sha256": "2785fd79fe88427d8f161200b32e0c31ab7a729a9a4b92d6cf770027c1e5c542",
+      "source_sha256": "2785fd79fe88427d8f161200b32e0c31ab7a729a9a4b92d6cf770027c1e5c542"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_azure.py",
+      "sha256": "6d9dd0d27a107eb23deca2966523f376f5a00c0a983d284c823196b59cdf987d",
+      "source_sha256": "6d9dd0d27a107eb23deca2966523f376f5a00c0a983d284c823196b59cdf987d"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_bedrock.py",
+      "sha256": "ee0a5667d22548f4f4c7b57dadbe4c13bb295d50ff475d24c479e8d19d96e99d",
+      "source_sha256": "ee0a5667d22548f4f4c7b57dadbe4c13bb295d50ff475d24c479e8d19d96e99d"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_bedrock_mantle.py",
+      "sha256": "6c07a5a96369948dd478bd6fa266d3cc7230427e6c1c05827efd5bdbe5d00cff",
+      "source_sha256": "6c07a5a96369948dd478bd6fa266d3cc7230427e6c1c05827efd5bdbe5d00cff"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_gateway.py",
+      "sha256": "133e9331fe19a1a45035e082ef70b258772b2ea736fc5c02bb70d04a9992fded",
+      "source_sha256": "133e9331fe19a1a45035e082ef70b258772b2ea736fc5c02bb70d04a9992fded"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_local.py",
+      "sha256": "18fbd6d489bc343f1a750726cf5a4d576c8ccf67d5ece34781b082cf928de4a3",
+      "source_sha256": "18fbd6d489bc343f1a750726cf5a4d576c8ccf67d5ece34781b082cf928de4a3"
+    },
+    {
+      "file": "repos/HippoRAG/examples/demo_openai.py",
+      "sha256": "bd0d43812de7ec466e4102268c1bc67582079cae4bc536b7f4b87ffd36acfaad",
+      "source_sha256": "bd0d43812de7ec466e4102268c1bc67582079cae4bc536b7f4b87ffd36acfaad"
+    },
+    {
+      "file": "repos/HippoRAG/LICENSE",
+      "sha256": "99688c936f582a603e43a685a079f1f14bea27fcdb8408fb57c97d6d29bd0124",
+      "source_sha256": "99688c936f582a603e43a685a079f1f14bea27fcdb8408fb57c97d6d29bd0124"
+    },
+    {
+      "file": "repos/HippoRAG/main.py",
+      "sha256": "34ce109058f352ca1c6d601e616dfc97bec4e97bd2a453ea30cb68ebe40385f0",
+      "source_sha256": "34ce109058f352ca1c6d601e616dfc97bec4e97bd2a453ea30cb68ebe40385f0"
+    },
+    {
+      "file": "repos/HippoRAG/pyproject.toml",
+      "sha256": "e1b5fedecabef77157207c007cfdafded038132c74e4323e10a94310a1c19fe5",
+      "source_sha256": "e1b5fedecabef77157207c007cfdafded038132c74e4323e10a94310a1c19fe5"
+    },
+    {
+      "file": "repos/HippoRAG/requirements.txt",
+      "sha256": "898bed2040c177e47f57ced1b10a91320a767e315d70b5bba30cfce64ce61c22",
+      "source_sha256": "898bed2040c177e47f57ced1b10a91320a767e315d70b5bba30cfce64ce61c22"
+    },
+    {
+      "file": "repos/HippoRAG/setup.py",
+      "sha256": "0f7836b2d902580f391b2509cee7679e15c0a38d083dc6d65328f09aa265d31e",
+      "source_sha256": "0f7836b2d902580f391b2509cee7679e15c0a38d083dc6d65328f09aa265d31e"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/__init__.py",
+      "sha256": "15e3d4d8b06f7f3f1ec50de0c8668014e36043bcc65e948277d3970754771510",
+      "source_sha256": "15e3d4d8b06f7f3f1ec50de0c8668014e36043bcc65e948277d3970754771510"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/__init__.py",
+      "sha256": "73b8c9f64e35d3580f0434415f278f474853883cf8f806e71271220444868b3c",
+      "source_sha256": "73b8c9f64e35d3580f0434415f278f474853883cf8f806e71271220444868b3c"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/base.py",
+      "sha256": "9b233633e77fe6938104b4ebba2b7403bfade762037c282c87a98b931fe6e736",
+      "source_sha256": "9b233633e77fe6938104b4ebba2b7403bfade762037c282c87a98b931fe6e736"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/Cohere.py",
+      "sha256": "ae995099ddc0105577084cb3be945e8769f7c181a96a2250e199b7709d4f2a25",
+      "source_sha256": "ae995099ddc0105577084cb3be945e8769f7c181a96a2250e199b7709d4f2a25"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/Contriever.py",
+      "sha256": "9ace839b4da53caefe2e8251d05915a82d047db5612dc00d7127ddfda77d2b1f",
+      "source_sha256": "9ace839b4da53caefe2e8251d05915a82d047db5612dc00d7127ddfda77d2b1f"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/GritLM.py",
+      "sha256": "df879ee92e4dc53a4753b607fe71af782cc84bf136b7d90d1fa80c349401d992",
+      "source_sha256": "df879ee92e4dc53a4753b607fe71af782cc84bf136b7d90d1fa80c349401d992"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/NVEmbedV2.py",
+      "sha256": "7846fd436e6d3194c8ae52bdeb693cd5bccfde2902c50001db6015911adaaac8",
+      "source_sha256": "7846fd436e6d3194c8ae52bdeb693cd5bccfde2902c50001db6015911adaaac8"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/OpenAI.py",
+      "sha256": "a52ddaf945f9168541205a6909a048b5f6fbd6d8d2543e243c0968f38bf48b4d",
+      "source_sha256": "a52ddaf945f9168541205a6909a048b5f6fbd6d8d2543e243c0968f38bf48b4d"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/Transformers.py",
+      "sha256": "326c02d7e49d561bd987c9098f707f6476b3f607c73623c69630792fac444ca4",
+      "source_sha256": "326c02d7e49d561bd987c9098f707f6476b3f607c73623c69630792fac444ca4"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_model/VLLM.py",
+      "sha256": "a5b98d4bb28a1915cf8e9b7981ab32749d7dac426ff8e36861a6b2e93b1a78da",
+      "source_sha256": "a5b98d4bb28a1915cf8e9b7981ab32749d7dac426ff8e36861a6b2e93b1a78da"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/embedding_store.py",
+      "sha256": "67320a53b1d9b0a9787c9b47b3d48572c21745c65a8e5e7b628bf6b60b0e0206",
+      "source_sha256": "67320a53b1d9b0a9787c9b47b3d48572c21745c65a8e5e7b628bf6b60b0e0206"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/evaluation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/evaluation/base.py",
+      "sha256": "0d5a2e79a33963230c17aa8b71b7f2dd9f98b0d24e3440e94fb7aaf864d8be84",
+      "source_sha256": "0d5a2e79a33963230c17aa8b71b7f2dd9f98b0d24e3440e94fb7aaf864d8be84"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/evaluation/qa_eval.py",
+      "sha256": "270047c87e87dfe1dfd358d72b7a5fea2dbf85f77d81f99cc1528eff970b1da0",
+      "source_sha256": "270047c87e87dfe1dfd358d72b7a5fea2dbf85f77d81f99cc1528eff970b1da0"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/evaluation/retrieval_eval.py",
+      "sha256": "1bd1bf35ec6ffb70404d7a254a1cf9c88b9c75e1972ef9c921e04adf248bce08",
+      "source_sha256": "1bd1bf35ec6ffb70404d7a254a1cf9c88b9c75e1972ef9c921e04adf248bce08"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/HippoRAG.py",
+      "sha256": "63374f66c2e92056026e4f9df27bd417621a2bd70ff045a91094bc90a0830293",
+      "source_sha256": "63374f66c2e92056026e4f9df27bd417621a2bd70ff045a91094bc90a0830293"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/information_extraction/__init__.py",
+      "sha256": "1703f3812ba22aac12e12ef1222e20f7dc744694178ac2e13f44f19a1ac7c5cb",
+      "source_sha256": "1703f3812ba22aac12e12ef1222e20f7dc744694178ac2e13f44f19a1ac7c5cb"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/information_extraction/openie_openai.py",
+      "sha256": "1e0a90dc939406b74f8f8acf2dd6536cb2529e961e3cde7c9e286bed9cce19e8",
+      "source_sha256": "1e0a90dc939406b74f8f8acf2dd6536cb2529e961e3cde7c9e286bed9cce19e8"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/information_extraction/openie_transformers_offline.py",
+      "sha256": "bde119e2313a009c5665a1acb4cf35cd2e08c4e52c040f6c039b59d1812bf548",
+      "source_sha256": "bde119e2313a009c5665a1acb4cf35cd2e08c4e52c040f6c039b59d1812bf548"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/information_extraction/openie_vllm_offline.py",
+      "sha256": "e8b490dd92fa3dfdfdfddc7d28bc3688fb09817cf46df4532c453b02449462c0",
+      "source_sha256": "e8b490dd92fa3dfdfdfddc7d28bc3688fb09817cf46df4532c453b02449462c0"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/__init__.py",
+      "sha256": "834cfcf48050610cbbd108865424d4b98b18be77bcfc17f7a0fc90e1dd0f5304",
+      "source_sha256": "834cfcf48050610cbbd108865424d4b98b18be77bcfc17f7a0fc90e1dd0f5304"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/base.py",
+      "sha256": "761e6a4141c6bbc8f5ecd5632ac0edf390fe2b1cd7eca453a411796d59dbde75",
+      "source_sha256": "761e6a4141c6bbc8f5ecd5632ac0edf390fe2b1cd7eca453a411796d59dbde75"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/bedrock_llm.py",
+      "sha256": "1e175e5a616f210554e385d6985b28e52c81034e5943294d928cce7b92cd0e3c",
+      "source_sha256": "1e175e5a616f210554e385d6985b28e52c81034e5943294d928cce7b92cd0e3c"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/bedrock_mantle.py",
+      "sha256": "1a79b134d72ede0d3f639fc6fdd70ac54c2db56e5658578943a7bedc7507d5a5",
+      "source_sha256": "1a79b134d72ede0d3f639fc6fdd70ac54c2db56e5658578943a7bedc7507d5a5"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/gateway_llm.py",
+      "sha256": "f5457c0895736275a398b96dc6e130b0f80367c4101eca0fceb90d9f6387f1a8",
+      "source_sha256": "f5457c0895736275a398b96dc6e130b0f80367c4101eca0fceb90d9f6387f1a8"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/gateways.py",
+      "sha256": "bfaba09b1a8ccf876e2e4291d73caecba31530074410ad596272125003a91172",
+      "source_sha256": "bfaba09b1a8ccf876e2e4291d73caecba31530074410ad596272125003a91172"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/openai_gpt.py",
+      "sha256": "c98cc4ed655e783ffb6d327e1b3a49b1a7439e1f85f70abe9a8ef277175f2842",
+      "source_sha256": "c98cc4ed655e783ffb6d327e1b3a49b1a7439e1f85f70abe9a8ef277175f2842"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/transformers_llm.py",
+      "sha256": "2a7ccafebdcd28524302756ca9751db342b10ad4519678ee7495ed22d1785e90",
+      "source_sha256": "2a7ccafebdcd28524302756ca9751db342b10ad4519678ee7495ed22d1785e90"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/transformers_offline.py",
+      "sha256": "e319fd9bb3714749b0e118292007bf5a41c5a60b7c9f296dfa2762239da10860",
+      "source_sha256": "e319fd9bb3714749b0e118292007bf5a41c5a60b7c9f296dfa2762239da10860"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/llm/vllm_offline.py",
+      "sha256": "8d1c4072ace12dd4a32389d5e10bbe39c51523e5451480513e45bd920517bfb5",
+      "source_sha256": "8d1c4072ace12dd4a32389d5e10bbe39c51523e5451480513e45bd920517bfb5"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/mcp_server.py",
+      "sha256": "1aaac0f3a8eadca90b31b5b59b3357dbec4ea953ab4dd42760d7d0d1b2cb6a40",
+      "source_sha256": "1aaac0f3a8eadca90b31b5b59b3357dbec4ea953ab4dd42760d7d0d1b2cb6a40"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/preprocessing.py",
+      "sha256": "ed62f64eeaa061eba14742aa444a74cffc5172ba63fdbc9d3567222af06b30f3",
+      "source_sha256": "ed62f64eeaa061eba14742aa444a74cffc5172ba63fdbc9d3567222af06b30f3"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/__init__.py",
+      "sha256": "c60459168692aab4024d57332c114a7cd842a5e560c7b78bdfe7331436c36419",
+      "source_sha256": "c60459168692aab4024d57332c114a7cd842a5e560c7b78bdfe7331436c36419"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/filter_default_prompt.py",
+      "sha256": "5d1ec95d82bc5d9fcc377ed357a5530025349c04261b8a4f635bb2337961c554",
+      "source_sha256": "5d1ec95d82bc5d9fcc377ed357a5530025349c04261b8a4f635bb2337961c554"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/linking.py",
+      "sha256": "e0777577b6ca48c45f1458444f0c6e408a9d9c8f4de3d8d0b2918545cb6fab01",
+      "source_sha256": "e0777577b6ca48c45f1458444f0c6e408a9d9c8f4de3d8d0b2918545cb6fab01"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/prompt_template_manager.py",
+      "sha256": "7975c2b49a7ce5d79c43c110e07c3b272aaa609beb2bf587f5a3e8cfbd1c6048",
+      "source_sha256": "7975c2b49a7ce5d79c43c110e07c3b272aaa609beb2bf587f5a3e8cfbd1c6048"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/ircot_2wikimultihopqa.py",
+      "sha256": "e71a94470eaa0ab09d190e723380a36621d31a0350f1ea12985bc1b1801e2dde",
+      "source_sha256": "e71a94470eaa0ab09d190e723380a36621d31a0350f1ea12985bc1b1801e2dde"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/ircot_hotpotqa.py",
+      "sha256": "357e4aa737b8412bdc078fc3b1e0d41f0c9e82347b0733deb345f86895697d0e",
+      "source_sha256": "357e4aa737b8412bdc078fc3b1e0d41f0c9e82347b0733deb345f86895697d0e"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/ircot_musique.py",
+      "sha256": "beae727a739c9b3f37a4d0f29b49ad7df997a669ea9ccd0aae4a8727773afc94",
+      "source_sha256": "beae727a739c9b3f37a4d0f29b49ad7df997a669ea9ccd0aae4a8727773afc94"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/ner.py",
+      "sha256": "356968fd7794737173ac1a1c5df4d8b96cd82c92a9b8bf4b691ddbc750759d11",
+      "source_sha256": "356968fd7794737173ac1a1c5df4d8b96cd82c92a9b8bf4b691ddbc750759d11"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/ner_query.py",
+      "sha256": "676277b6a5662aeeda557be8d14be3c4dfaf3266d82ef678590bd5033fdf79cd",
+      "source_sha256": "676277b6a5662aeeda557be8d14be3c4dfaf3266d82ef678590bd5033fdf79cd"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/rag_qa_musique.py",
+      "sha256": "fada8f3cffcd2b657f2eec268f46e5deafc09471d609ba6292a58e3baea79c51",
+      "source_sha256": "fada8f3cffcd2b657f2eec268f46e5deafc09471d609ba6292a58e3baea79c51"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/prompts/templates/triple_extraction.py",
+      "sha256": "699cd7f6fccffe3fad1a22f50d18f73416af2c6ae4afdafd12fe95fe40228c2c",
+      "source_sha256": "699cd7f6fccffe3fad1a22f50d18f73416af2c6ae4afdafd12fe95fe40228c2c"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/rerank.py",
+      "sha256": "0ccc68757a4b190eac1a1ba7a6f70c12a1ca1529573f21526840b62feac86acf",
+      "source_sha256": "0ccc68757a4b190eac1a1ba7a6f70c12a1ca1529573f21526840b62feac86acf"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/StandardRAG.py",
+      "sha256": "9cb082633e44659d4c8321aad709ce98ab2ec74c366c581cbc4429558cf2e214",
+      "source_sha256": "9cb082633e44659d4c8321aad709ce98ab2ec74c366c581cbc4429558cf2e214"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/config_utils.py",
+      "sha256": "966729bd11f80be533548473fdc60c526817f8f3c998fab9766f340a48e09728",
+      "source_sha256": "966729bd11f80be533548473fdc60c526817f8f3c998fab9766f340a48e09728"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/embed_utils.py",
+      "sha256": "30a8c8409482baee03c97e8cf73607bfb8bbd1551847eec338cd1940e5359fc6",
+      "source_sha256": "30a8c8409482baee03c97e8cf73607bfb8bbd1551847eec338cd1940e5359fc6"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/eval_utils.py",
+      "sha256": "3e5abab959cf12fb437f286ee3784785ae93aaae32540647ac3658db0c72e321",
+      "source_sha256": "3e5abab959cf12fb437f286ee3784785ae93aaae32540647ac3658db0c72e321"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/llm_utils.py",
+      "sha256": "b84cdd2c7550f8aa7f8f3da4f2edf293ac2a0dd80b9fd30afa86ebf4b3eebf38",
+      "source_sha256": "b84cdd2c7550f8aa7f8f3da4f2edf293ac2a0dd80b9fd30afa86ebf4b3eebf38"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/logging_utils.py",
+      "sha256": "fc0158ef488de773a95c6f051969c80a30d63059a7936594efe2a1158c930e64",
+      "source_sha256": "fc0158ef488de773a95c6f051969c80a30d63059a7936594efe2a1158c930e64"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/misc_utils.py",
+      "sha256": "5fafc15dfced4e16ec22c57f765f33d168d621e54ac5e5aa72c63817eadbfd16",
+      "source_sha256": "5fafc15dfced4e16ec22c57f765f33d168d621e54ac5e5aa72c63817eadbfd16"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/openai_utils.py",
+      "sha256": "fd751955b50cdbb489f1cf4fe0b1770dc2d596aa5831394f8934b67bcbb5d871",
+      "source_sha256": "fd751955b50cdbb489f1cf4fe0b1770dc2d596aa5831394f8934b67bcbb5d871"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/qa_utils.py",
+      "sha256": "ecd65e1a28c47859ccf3e6f8c5709b321e1cc1ed3b4326c1b77991fccfd8a9ca",
+      "source_sha256": "ecd65e1a28c47859ccf3e6f8c5709b321e1cc1ed3b4326c1b77991fccfd8a9ca"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/sample_data.py",
+      "sha256": "a22f0d72f37798e17df734a7bc75410a969ec5c69ff4a242bbeded103591237c",
+      "source_sha256": "a22f0d72f37798e17df734a7bc75410a969ec5c69ff4a242bbeded103591237c"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/state_utils.py",
+      "sha256": "360bfa7a27e092a86b250d690b4f71ce1841429c1327ce4a939195374646a0bd",
+      "source_sha256": "360bfa7a27e092a86b250d690b4f71ce1841429c1327ce4a939195374646a0bd"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/utils/typing.py",
+      "sha256": "3dabc79e3f94bbe7e997c9231f5ff1af1af96399aab964094eaf75c47d42d175",
+      "source_sha256": "3dabc79e3f94bbe7e997c9231f5ff1af1af96399aab964094eaf75c47d42d175"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/vector_stores/__init__.py",
+      "sha256": "b6f93b019053f2730de5a1c7694b57d74234d6cd0bd21d0b4aa63b2785df3972",
+      "source_sha256": "b6f93b019053f2730de5a1c7694b57d74234d6cd0bd21d0b4aa63b2785df3972"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/vector_stores/chroma_store.py",
+      "sha256": "c07a86fc22a387b501e85d9bd827e433239e5a1bebf1317ca408477667f8289a",
+      "source_sha256": "c07a86fc22a387b501e85d9bd827e433239e5a1bebf1317ca408477667f8289a"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/vector_stores/milvus_store.py",
+      "sha256": "fb3cbe998d61f22ec9e6b176b457183315557922e2ead0c92ec5a7c85d214aad",
+      "source_sha256": "fb3cbe998d61f22ec9e6b176b457183315557922e2ead0c92ec5a7c85d214aad"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/vector_stores/naming.py",
+      "sha256": "549c70a4a8d05c167cb6ad96c52aa13436fc1e4cf639062fd76c54f676f472d6",
+      "source_sha256": "549c70a4a8d05c167cb6ad96c52aa13436fc1e4cf639062fd76c54f676f472d6"
+    },
+    {
+      "file": "repos/HippoRAG/src/hipporag/vector_stores/qdrant_store.py",
+      "sha256": "4eb6bb82569d72273f255210ebcb92fa3221d7a6a0c8e2ab9018d442a273ad5b",
+      "source_sha256": "4eb6bb82569d72273f255210ebcb92fa3221d7a6a0c8e2ab9018d442a273ad5b"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/_shared.py",
+      "sha256": "a510d179595b63826a34d16bc4ed970573f68bdbe15e1499dc49706385dc4ce6",
+      "source_sha256": "a510d179595b63826a34d16bc4ed970573f68bdbe15e1499dc49706385dc4ce6"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_azure.py",
+      "sha256": "c7733a7fd0056a3ea1ecbe2746fafef88bd36db0226def16eba9f7cbe9d2d964",
+      "source_sha256": "c7733a7fd0056a3ea1ecbe2746fafef88bd36db0226def16eba9f7cbe9d2d964"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_gateway.py",
+      "sha256": "1026928506a7ace6863745370af589a1aebf4868f19677a878562fe93c8a6dbd",
+      "source_sha256": "1026928506a7ace6863745370af589a1aebf4868f19677a878562fe93c8a6dbd"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_local.py",
+      "sha256": "233eb41d7cd532d631608fdc245087d03a1271f5ed27f37989abe26845b7192d",
+      "source_sha256": "233eb41d7cd532d631608fdc245087d03a1271f5ed27f37989abe26845b7192d"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_openai.py",
+      "sha256": "f6f0d7f336ace4f1c6aa107f33aa4fcc562a1b8b1511b0a65baf14fbfa58471e",
+      "source_sha256": "f6f0d7f336ace4f1c6aa107f33aa4fcc562a1b8b1511b0a65baf14fbfa58471e"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_transformers.py",
+      "sha256": "22b61820157636c9a6c39d757c5f57fdd677afaf88fe840c8a440ef8138118b0",
+      "source_sha256": "22b61820157636c9a6c39d757c5f57fdd677afaf88fe840c8a440ef8138118b0"
+    },
+    {
+      "file": "repos/HippoRAG/tests/integration/run_vector_stores.py",
+      "sha256": "60b96d266333b9911bbced68d153dcdb287d3845100079d1c815fbb969480f5e",
+      "source_sha256": "60b96d266333b9911bbced68d153dcdb287d3845100079d1c815fbb969480f5e"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_bedrock_llm.py",
+      "sha256": "705193bf39412fa34b7b5bf6f2a0d7b446eb3778e317b87ebfc406943b18fb4c",
+      "source_sha256": "705193bf39412fa34b7b5bf6f2a0d7b446eb3778e317b87ebfc406943b18fb4c"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_bedrock_mantle.py",
+      "sha256": "4afc148cfd0bacd2d76fd36be456666c404de5340bfc526295c4f6c4a888260b",
+      "source_sha256": "4afc148cfd0bacd2d76fd36be456666c404de5340bfc526295c4f6c4a888260b"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_gateway_llm.py",
+      "sha256": "c419762f4cc9b7b529f9cebd47bece1ad519fd7b931da1acaeb3d015c7be875a",
+      "source_sha256": "c419762f4cc9b7b529f9cebd47bece1ad519fd7b931da1acaeb3d015c7be875a"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_hipporag_state_consistency.py",
+      "sha256": "ec69d13933bcb0edd8bcf7dd9a9842a16fecff51bd70cfda80bf9b77c8fb0ddc",
+      "source_sha256": "ec69d13933bcb0edd8bcf7dd9a9842a16fecff51bd70cfda80bf9b77c8fb0ddc"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_openai_sdk_compat.py",
+      "sha256": "fcf079b23b2028a1b56be283f14bce69eef9cd3035905071e3517f2a83f3a65e",
+      "source_sha256": "fcf079b23b2028a1b56be283f14bce69eef9cd3035905071e3517f2a83f3a65e"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_openie_extraction.py",
+      "sha256": "06aeb5760e09e9d3e32a8391346fabe4c4e15be8911a620d74b4411396286754",
+      "source_sha256": "06aeb5760e09e9d3e32a8391346fabe4c4e15be8911a620d74b4411396286754"
+    },
+    {
+      "file": "repos/HippoRAG/tests/test_regressions.py",
+      "sha256": "c7bfc0f029423c63c8544b3a0aabde3bb51d54beac5c1f2d7e015a417c6c4948",
+      "source_sha256": "c7bfc0f029423c63c8544b3a0aabde3bb51d54beac5c1f2d7e015a417c6c4948"
+    }
+  ],
+  "credential_configuration_updated": [
+    "code\\_remote.py",
+    "code/ssh_r.sh",
+    "code/scp_r.sh"
+  ]
+}
